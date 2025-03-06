@@ -1,0 +1,2504 @@
+7.1243 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+7.5867 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002329D7C11E0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002329D7C1180>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000232A597D240>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.5868 	EXP 	window1: backgroundImage = ''
+7.5868 	EXP 	window1: backgroundFit = 'none'
+7.6978 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.6978 	EXP 	window1: recordFrameIntervals = False
+7.8361 	EXP 	window1: recordFrameIntervals = True
+8.0198 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+8.0199 	EXP 	window1: recordFrameIntervals = False
+11.3576 	EXP 	attention_network_task: status = STARTED
+11.7938 	EXP 	Created background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+12.1418 	EXP 	Created background_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+12.4192 	EXP 	Created background_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+12.4238 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+12.7362 	EXP 	Created background_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+12.7404 	EXP 	Created cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='cues', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+12.7435 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1, ori=1.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+12.7468 	EXP 	Created fixationshort = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='fixationshort', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+13.0424 	EXP 	Created background_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_5', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+13.0734 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3716 	EXP 	Created background_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_6', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+0.0257 	EXP 	inst1textbox: autoLog = True
+0.0257 	EXP 	inst1textbox_2: autoLog = True
+0.0257 	EXP 	trial_counter_2: autoLog = True
+0.0257 	EXP 	reminder: autoLog = True
+0.0257 	EXP 	trial_counter: autoLog = True
+0.0257 	EXP 	reminder_2: autoLog = True
+0.0257 	EXP 	trial_counter_3: autoLog = True
+0.0257 	EXP 	reminder_3: autoLog = True
+0.0257 	EXP 	inst1textbox_3: autoLog = True
+0.0544 	EXP 	background: autoDraw = True
+0.0544 	EXP 	inst1textbox: autoDraw = True
+1.4758 	DATA 	Mouse: Left button down, pos=(1036,525)
+1.7113 	DATA 	Mouse:  Left button up, pos=(1036,525)
+3.6930 	DATA 	Mouse: Left button down, pos=(1159,259)
+3.9099 	DATA 	Mouse:  Left button up, pos=(1159,259)
+6.6103 	DATA 	Mouse: Left button down, pos=(1127,457)
+6.8264 	DATA 	Mouse:  Left button up, pos=(1127,457)
+7.0601 	DATA 	Keypress: space
+7.1259 	EXP 	background: autoDraw = False
+7.1259 	EXP 	inst1textbox: autoDraw = False
+7.1259 	EXP 	background_2: autoDraw = True
+7.1259 	EXP 	inst1textbox_2: autoDraw = True
+7.6068 	EXP 	Imported cond.xlsx as conditions, 48 conditions, 4 params
+7.6085 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+7.6721 	DATA 	Keypress: space
+7.6774 	EXP 	background_2: autoDraw = False
+7.6774 	EXP 	inst1textbox_2: autoDraw = False
+7.6774 	EXP 	background_3: autoDraw = True
+7.6774 	EXP 	image: autoDraw = True
+7.6774 	EXP 	trial_counter_2: autoDraw = True
+7.6774 	EXP 	reminder: autoDraw = True
+8.1824 	EXP 	background_3: autoDraw = False
+8.1824 	EXP 	image: autoDraw = False
+8.1824 	EXP 	trial_counter_2: autoDraw = False
+8.1824 	EXP 	reminder: autoDraw = False
+8.1824 	EXP 	background_3: autoDraw = False
+8.1824 	EXP 	image: autoDraw = False
+8.1824 	EXP 	trial_counter_2: autoDraw = False
+8.1824 	EXP 	reminder: autoDraw = False
+8.1824 	EXP 	cues: image = 'stim/centre.png'
+8.1824 	EXP 	target: ori = 0.0
+8.1824 	EXP 	target: image = 'stim/neutralRight.png'
+8.1824 	EXP 	background_4: autoDraw = True
+8.1824 	EXP 	cues: autoDraw = True
+8.1824 	EXP 	fixationshort: autoDraw = True
+8.1824 	EXP 	trial_counter: autoDraw = True
+8.1824 	EXP 	reminder_2: autoDraw = True
+8.2893 	EXP 	cues: autoDraw = False
+8.6227 	EXP 	target: autoDraw = True
+8.6893 	EXP 	fixationshort: autoDraw = False
+9.3469 	DATA 	Keypress: right
+9.3481 	EXP 	background_4: autoDraw = False
+9.3481 	EXP 	cues: autoDraw = False
+9.3481 	EXP 	target: autoDraw = False
+9.3481 	EXP 	fixationshort: autoDraw = False
+9.3481 	EXP 	trial_counter: autoDraw = False
+9.3481 	EXP 	reminder_2: autoDraw = False
+9.3481 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+9.3481 	EXP 	text: height = 0.04
+9.3481 	EXP 	text: height = 0.04
+9.3481 	EXP 	text: height = 0.04
+9.3481 	EXP 	text: text = 'Correct! Your RT is : 593ms'
+9.3481 	EXP 	background_5: autoDraw = True
+9.3481 	EXP 	text: autoDraw = True
+9.3481 	EXP 	trial_counter_3: autoDraw = True
+9.3481 	EXP 	reminder_3: autoDraw = True
+10.2396 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'cue': 'stim/upper.png', 'tar': 'stim/congRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+10.2566 	EXP 	background_5: autoDraw = False
+10.2566 	EXP 	text: autoDraw = False
+10.2566 	EXP 	trial_counter_3: autoDraw = False
+10.2566 	EXP 	reminder_3: autoDraw = False
+10.2566 	EXP 	background_3: autoDraw = True
+10.2566 	EXP 	image: autoDraw = True
+10.2566 	EXP 	trial_counter_2: autoDraw = True
+10.2566 	EXP 	reminder: autoDraw = True
+10.6762 	DATA 	Keypress: right
+10.8060 	EXP 	background_3: autoDraw = False
+10.8060 	EXP 	image: autoDraw = False
+10.8060 	EXP 	trial_counter_2: autoDraw = False
+10.8060 	EXP 	reminder: autoDraw = False
+10.8060 	EXP 	background_3: autoDraw = False
+10.8060 	EXP 	image: autoDraw = False
+10.8060 	EXP 	trial_counter_2: autoDraw = False
+10.8060 	EXP 	reminder: autoDraw = False
+10.8060 	EXP 	cues: image = 'stim/upper.png'
+10.8060 	EXP 	target: ori = 0.0
+10.8060 	EXP 	target: image = 'stim/congRight.png'
+10.8060 	EXP 	background_4: autoDraw = True
+10.8060 	EXP 	cues: autoDraw = True
+10.8060 	EXP 	fixationshort: autoDraw = True
+10.8060 	EXP 	trial_counter: autoDraw = True
+10.8060 	EXP 	reminder_2: autoDraw = True
+10.8597 	DATA 	Keypress: right
+10.9059 	EXP 	cues: autoDraw = False
+11.0269 	DATA 	Keypress: right
+11.1926 	DATA 	Keypress: right
+11.2894 	EXP 	target: autoDraw = True
+11.3061 	EXP 	fixationshort: autoDraw = False
+11.3267 	DATA 	Keypress: right
+11.3559 	EXP 	background_4: autoDraw = False
+11.3559 	EXP 	cues: autoDraw = False
+11.3559 	EXP 	target: autoDraw = False
+11.3559 	EXP 	fixationshort: autoDraw = False
+11.3559 	EXP 	trial_counter: autoDraw = False
+11.3559 	EXP 	reminder_2: autoDraw = False
+11.3559 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+11.3559 	EXP 	text: height = 0.04
+11.3559 	EXP 	text: height = 0.04
+11.3559 	EXP 	text: height = 0.04
+11.3559 	EXP 	text: text = 'Correct! Your RT is : 34ms'
+11.3559 	EXP 	background_5: autoDraw = True
+11.3559 	EXP 	text: autoDraw = True
+11.3559 	EXP 	trial_counter_3: autoDraw = True
+11.3559 	EXP 	reminder_3: autoDraw = True
+11.4760 	DATA 	Keypress: right
+11.6098 	DATA 	Keypress: right
+11.7436 	DATA 	Keypress: right
+11.8932 	DATA 	Keypress: right
+12.0272 	DATA 	Keypress: right
+12.1763 	DATA 	Keypress: right
+12.3264 	DATA 	Keypress: right
+12.3394 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+12.3566 	EXP 	background_5: autoDraw = False
+12.3566 	EXP 	text: autoDraw = False
+12.3566 	EXP 	trial_counter_3: autoDraw = False
+12.3566 	EXP 	reminder_3: autoDraw = False
+12.3566 	EXP 	background_5: autoDraw = False
+12.3566 	EXP 	text: autoDraw = False
+12.3566 	EXP 	trial_counter_3: autoDraw = False
+12.3566 	EXP 	reminder_3: autoDraw = False
+12.3566 	EXP 	background_3: autoDraw = True
+12.3566 	EXP 	image: autoDraw = True
+12.3566 	EXP 	trial_counter_2: autoDraw = True
+12.3566 	EXP 	reminder: autoDraw = True
+12.4764 	DATA 	Keypress: right
+12.6259 	DATA 	Keypress: right
+12.7431 	DATA 	Keypress: right
+12.8058 	EXP 	background_3: autoDraw = False
+12.8058 	EXP 	image: autoDraw = False
+12.8058 	EXP 	trial_counter_2: autoDraw = False
+12.8058 	EXP 	reminder: autoDraw = False
+12.8058 	EXP 	background_3: autoDraw = False
+12.8058 	EXP 	image: autoDraw = False
+12.8058 	EXP 	trial_counter_2: autoDraw = False
+12.8058 	EXP 	reminder: autoDraw = False
+12.8058 	EXP 	cues: image = 'stim/centre.png'
+12.8058 	EXP 	target: ori = 0.0
+12.8058 	EXP 	target: image = 'stim/neutralLeft.png'
+12.8058 	EXP 	background_4: autoDraw = True
+12.8058 	EXP 	cues: autoDraw = True
+12.8058 	EXP 	fixationshort: autoDraw = True
+12.8058 	EXP 	trial_counter: autoDraw = True
+12.8058 	EXP 	reminder_2: autoDraw = True
+12.9058 	EXP 	cues: autoDraw = False
+12.9262 	DATA 	Keypress: right
+13.0763 	DATA 	Keypress: right
+13.2428 	DATA 	Keypress: right
+13.2892 	EXP 	target: autoDraw = True
+13.3060 	EXP 	fixationshort: autoDraw = False
+13.3992 	DATA 	Keypress: right
+13.4059 	EXP 	background_4: autoDraw = False
+13.4059 	EXP 	cues: autoDraw = False
+13.4059 	EXP 	target: autoDraw = False
+13.4059 	EXP 	fixationshort: autoDraw = False
+13.4059 	EXP 	trial_counter: autoDraw = False
+13.4059 	EXP 	reminder_2: autoDraw = False
+13.4059 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+13.4059 	EXP 	text: height = 0.04
+13.4059 	EXP 	text: height = 0.04
+13.4059 	EXP 	text: height = 0.04
+13.4059 	EXP 	text: text = 'Incorrect!'
+13.4059 	EXP 	background_5: autoDraw = True
+13.4059 	EXP 	text: autoDraw = True
+13.4059 	EXP 	trial_counter_3: autoDraw = True
+13.4059 	EXP 	reminder_3: autoDraw = True
+13.5439 	DATA 	Keypress: right
+13.7100 	DATA 	Keypress: right
+13.8596 	DATA 	Keypress: right
+14.0098 	DATA 	Keypress: right
+14.1760 	DATA 	Keypress: right
+14.3428 	DATA 	Keypress: right
+14.3899 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+14.4058 	EXP 	background_5: autoDraw = False
+14.4058 	EXP 	text: autoDraw = False
+14.4058 	EXP 	trial_counter_3: autoDraw = False
+14.4058 	EXP 	reminder_3: autoDraw = False
+14.4058 	EXP 	background_5: autoDraw = False
+14.4058 	EXP 	text: autoDraw = False
+14.4058 	EXP 	trial_counter_3: autoDraw = False
+14.4058 	EXP 	reminder_3: autoDraw = False
+14.4058 	EXP 	background_3: autoDraw = True
+14.4058 	EXP 	image: autoDraw = True
+14.4058 	EXP 	trial_counter_2: autoDraw = True
+14.4058 	EXP 	reminder: autoDraw = True
+14.5093 	DATA 	Keypress: right
+14.6597 	DATA 	Keypress: right
+14.8093 	DATA 	Keypress: right
+14.8566 	EXP 	background_3: autoDraw = False
+14.8566 	EXP 	image: autoDraw = False
+14.8566 	EXP 	trial_counter_2: autoDraw = False
+14.8566 	EXP 	reminder: autoDraw = False
+14.8566 	EXP 	background_3: autoDraw = False
+14.8566 	EXP 	image: autoDraw = False
+14.8566 	EXP 	trial_counter_2: autoDraw = False
+14.8566 	EXP 	reminder: autoDraw = False
+14.8566 	EXP 	cues: image = 'stim/blank.png'
+14.8566 	EXP 	target: ori = 0.0
+14.8566 	EXP 	target: image = 'stim/neutralRight.png'
+14.8566 	EXP 	background_4: autoDraw = True
+14.8566 	EXP 	cues: autoDraw = True
+14.8566 	EXP 	fixationshort: autoDraw = True
+14.8566 	EXP 	trial_counter: autoDraw = True
+14.8566 	EXP 	reminder_2: autoDraw = True
+14.9559 	EXP 	cues: autoDraw = False
+15.3391 	EXP 	target: autoDraw = True
+15.3557 	EXP 	fixationshort: autoDraw = False
+15.6087 	DATA 	Keypress: right
+15.6106 	EXP 	background_4: autoDraw = False
+15.6106 	EXP 	cues: autoDraw = False
+15.6106 	EXP 	target: autoDraw = False
+15.6106 	EXP 	fixationshort: autoDraw = False
+15.6106 	EXP 	trial_counter: autoDraw = False
+15.6106 	EXP 	reminder_2: autoDraw = False
+15.6106 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+15.6106 	EXP 	text: height = 0.04
+15.6106 	EXP 	text: height = 0.04
+15.6106 	EXP 	text: height = 0.04
+15.6106 	EXP 	text: text = 'Correct! Your RT is : 250ms'
+15.6106 	EXP 	background_5: autoDraw = True
+15.6106 	EXP 	text: autoDraw = True
+15.6106 	EXP 	trial_counter_3: autoDraw = True
+15.6106 	EXP 	reminder_3: autoDraw = True
+16.6061 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+16.6231 	EXP 	background_5: autoDraw = False
+16.6231 	EXP 	text: autoDraw = False
+16.6231 	EXP 	trial_counter_3: autoDraw = False
+16.6231 	EXP 	reminder_3: autoDraw = False
+16.6231 	EXP 	background_3: autoDraw = True
+16.6231 	EXP 	image: autoDraw = True
+16.6231 	EXP 	trial_counter_2: autoDraw = True
+16.6231 	EXP 	reminder: autoDraw = True
+17.0234 	EXP 	background_3: autoDraw = False
+17.0234 	EXP 	image: autoDraw = False
+17.0234 	EXP 	trial_counter_2: autoDraw = False
+17.0234 	EXP 	reminder: autoDraw = False
+17.0234 	EXP 	background_3: autoDraw = False
+17.0234 	EXP 	image: autoDraw = False
+17.0234 	EXP 	trial_counter_2: autoDraw = False
+17.0234 	EXP 	reminder: autoDraw = False
+17.0234 	EXP 	cues: image = 'stim/both.png'
+17.0234 	EXP 	target: ori = 0.0
+17.0234 	EXP 	target: image = 'stim/incongLeft.png'
+17.0234 	EXP 	background_4: autoDraw = True
+17.0234 	EXP 	cues: autoDraw = True
+17.0234 	EXP 	fixationshort: autoDraw = True
+17.0234 	EXP 	trial_counter: autoDraw = True
+17.0234 	EXP 	reminder_2: autoDraw = True
+17.1225 	EXP 	cues: autoDraw = False
+17.5058 	EXP 	target: autoDraw = True
+17.5225 	EXP 	fixationshort: autoDraw = False
+17.8805 	DATA 	Keypress: right
+17.8892 	EXP 	background_4: autoDraw = False
+17.8892 	EXP 	cues: autoDraw = False
+17.8892 	EXP 	target: autoDraw = False
+17.8892 	EXP 	fixationshort: autoDraw = False
+17.8892 	EXP 	trial_counter: autoDraw = False
+17.8892 	EXP 	reminder_2: autoDraw = False
+17.8892 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+17.8892 	EXP 	text: height = 0.04
+17.8892 	EXP 	text: height = 0.04
+17.8892 	EXP 	text: height = 0.04
+17.8892 	EXP 	text: text = 'Incorrect!'
+17.8892 	EXP 	background_5: autoDraw = True
+17.8892 	EXP 	text: autoDraw = True
+17.8892 	EXP 	trial_counter_3: autoDraw = True
+17.8892 	EXP 	reminder_3: autoDraw = True
+18.8731 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+18.8898 	EXP 	background_5: autoDraw = False
+18.8898 	EXP 	text: autoDraw = False
+18.8898 	EXP 	trial_counter_3: autoDraw = False
+18.8898 	EXP 	reminder_3: autoDraw = False
+18.8898 	EXP 	background_5: autoDraw = False
+18.8898 	EXP 	text: autoDraw = False
+18.8898 	EXP 	trial_counter_3: autoDraw = False
+18.8898 	EXP 	reminder_3: autoDraw = False
+18.8898 	EXP 	background_3: autoDraw = True
+18.8898 	EXP 	image: autoDraw = True
+18.8898 	EXP 	trial_counter_2: autoDraw = True
+18.8898 	EXP 	reminder: autoDraw = True
+19.2893 	EXP 	background_3: autoDraw = False
+19.2893 	EXP 	image: autoDraw = False
+19.2893 	EXP 	trial_counter_2: autoDraw = False
+19.2893 	EXP 	reminder: autoDraw = False
+19.2893 	EXP 	background_3: autoDraw = False
+19.2893 	EXP 	image: autoDraw = False
+19.2893 	EXP 	trial_counter_2: autoDraw = False
+19.2893 	EXP 	reminder: autoDraw = False
+19.2893 	EXP 	cues: image = 'stim/both.png'
+19.2893 	EXP 	target: ori = 180.0
+19.2893 	EXP 	target: image = 'stim/incongLeft.png'
+19.2893 	EXP 	background_4: autoDraw = True
+19.2893 	EXP 	cues: autoDraw = True
+19.2893 	EXP 	fixationshort: autoDraw = True
+19.2893 	EXP 	trial_counter: autoDraw = True
+19.2893 	EXP 	reminder_2: autoDraw = True
+19.3889 	EXP 	cues: autoDraw = False
+19.7725 	EXP 	target: autoDraw = True
+19.7891 	EXP 	fixationshort: autoDraw = False
+20.4950 	DATA 	Keypress: right
+20.4972 	EXP 	background_4: autoDraw = False
+20.4972 	EXP 	cues: autoDraw = False
+20.4972 	EXP 	target: autoDraw = False
+20.4972 	EXP 	fixationshort: autoDraw = False
+20.4972 	EXP 	trial_counter: autoDraw = False
+20.4972 	EXP 	reminder_2: autoDraw = False
+20.4972 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+20.4972 	EXP 	text: height = 0.04
+20.4972 	EXP 	text: height = 0.04
+20.4972 	EXP 	text: height = 0.04
+20.4972 	EXP 	text: text = 'Correct! Your RT is : 691ms'
+20.4972 	EXP 	background_5: autoDraw = True
+20.4972 	EXP 	text: autoDraw = True
+20.4972 	EXP 	trial_counter_3: autoDraw = True
+20.4972 	EXP 	reminder_3: autoDraw = True
+21.4894 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'cue': 'stim/lower.png', 'tar': 'stim/incongRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+21.5064 	EXP 	background_5: autoDraw = False
+21.5064 	EXP 	text: autoDraw = False
+21.5064 	EXP 	trial_counter_3: autoDraw = False
+21.5064 	EXP 	reminder_3: autoDraw = False
+21.5064 	EXP 	background_3: autoDraw = True
+21.5064 	EXP 	image: autoDraw = True
+21.5064 	EXP 	trial_counter_2: autoDraw = True
+21.5064 	EXP 	reminder: autoDraw = True
+22.0560 	EXP 	background_3: autoDraw = False
+22.0560 	EXP 	image: autoDraw = False
+22.0560 	EXP 	trial_counter_2: autoDraw = False
+22.0560 	EXP 	reminder: autoDraw = False
+22.0560 	EXP 	background_3: autoDraw = False
+22.0560 	EXP 	image: autoDraw = False
+22.0560 	EXP 	trial_counter_2: autoDraw = False
+22.0560 	EXP 	reminder: autoDraw = False
+22.0560 	EXP 	cues: image = 'stim/lower.png'
+22.0560 	EXP 	target: ori = 180.0
+22.0560 	EXP 	target: image = 'stim/incongRight.png'
+22.0560 	EXP 	background_4: autoDraw = True
+22.0560 	EXP 	cues: autoDraw = True
+22.0560 	EXP 	fixationshort: autoDraw = True
+22.0560 	EXP 	trial_counter: autoDraw = True
+22.0560 	EXP 	reminder_2: autoDraw = True
+22.1559 	EXP 	cues: autoDraw = False
+22.5388 	EXP 	target: autoDraw = True
+22.5555 	EXP 	fixationshort: autoDraw = False
+23.2266 	DATA 	Keypress: left
+23.2556 	EXP 	background_4: autoDraw = False
+23.2556 	EXP 	cues: autoDraw = False
+23.2556 	EXP 	target: autoDraw = False
+23.2556 	EXP 	fixationshort: autoDraw = False
+23.2556 	EXP 	trial_counter: autoDraw = False
+23.2556 	EXP 	reminder_2: autoDraw = False
+23.2556 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+23.2556 	EXP 	text: height = 0.04
+23.2556 	EXP 	text: height = 0.04
+23.2556 	EXP 	text: height = 0.04
+23.2556 	EXP 	text: text = 'Correct! Your RT is : 685ms'
+23.2556 	EXP 	background_5: autoDraw = True
+23.2556 	EXP 	text: autoDraw = True
+23.2556 	EXP 	trial_counter_3: autoDraw = True
+23.2556 	EXP 	reminder_3: autoDraw = True
+24.2397 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'cue': 'stim/lower.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+24.2557 	EXP 	background_5: autoDraw = False
+24.2557 	EXP 	text: autoDraw = False
+24.2557 	EXP 	trial_counter_3: autoDraw = False
+24.2557 	EXP 	reminder_3: autoDraw = False
+24.2557 	EXP 	background_5: autoDraw = False
+24.2557 	EXP 	text: autoDraw = False
+24.2557 	EXP 	trial_counter_3: autoDraw = False
+24.2557 	EXP 	reminder_3: autoDraw = False
+24.2557 	EXP 	background_3: autoDraw = True
+24.2557 	EXP 	image: autoDraw = True
+24.2557 	EXP 	trial_counter_2: autoDraw = True
+24.2557 	EXP 	reminder: autoDraw = True
+24.7560 	EXP 	background_3: autoDraw = False
+24.7560 	EXP 	image: autoDraw = False
+24.7560 	EXP 	trial_counter_2: autoDraw = False
+24.7560 	EXP 	reminder: autoDraw = False
+24.7560 	EXP 	background_3: autoDraw = False
+24.7560 	EXP 	image: autoDraw = False
+24.7560 	EXP 	trial_counter_2: autoDraw = False
+24.7560 	EXP 	reminder: autoDraw = False
+24.7560 	EXP 	cues: image = 'stim/lower.png'
+24.7560 	EXP 	target: ori = 180.0
+24.7560 	EXP 	target: image = 'stim/incongLeft.png'
+24.7560 	EXP 	background_4: autoDraw = True
+24.7560 	EXP 	cues: autoDraw = True
+24.7560 	EXP 	fixationshort: autoDraw = True
+24.7560 	EXP 	trial_counter: autoDraw = True
+24.7560 	EXP 	reminder_2: autoDraw = True
+24.8560 	EXP 	cues: autoDraw = False
+25.2390 	EXP 	target: autoDraw = True
+25.2556 	EXP 	fixationshort: autoDraw = False
+25.8643 	DATA 	Keypress: right
+25.8725 	EXP 	background_4: autoDraw = False
+25.8725 	EXP 	cues: autoDraw = False
+25.8725 	EXP 	target: autoDraw = False
+25.8725 	EXP 	fixationshort: autoDraw = False
+25.8725 	EXP 	trial_counter: autoDraw = False
+25.8725 	EXP 	reminder_2: autoDraw = False
+25.8725 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+25.8725 	EXP 	text: height = 0.04
+25.8725 	EXP 	text: height = 0.04
+25.8725 	EXP 	text: height = 0.04
+25.8725 	EXP 	text: text = 'Correct! Your RT is : 612ms'
+25.8725 	EXP 	background_5: autoDraw = True
+25.8725 	EXP 	text: autoDraw = True
+25.8725 	EXP 	trial_counter_3: autoDraw = True
+25.8725 	EXP 	reminder_3: autoDraw = True
+26.8565 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+26.8728 	EXP 	background_5: autoDraw = False
+26.8728 	EXP 	text: autoDraw = False
+26.8728 	EXP 	trial_counter_3: autoDraw = False
+26.8728 	EXP 	reminder_3: autoDraw = False
+26.8728 	EXP 	background_5: autoDraw = False
+26.8728 	EXP 	text: autoDraw = False
+26.8728 	EXP 	trial_counter_3: autoDraw = False
+26.8728 	EXP 	reminder_3: autoDraw = False
+26.8728 	EXP 	background_3: autoDraw = True
+26.8728 	EXP 	image: autoDraw = True
+26.8728 	EXP 	trial_counter_2: autoDraw = True
+26.8728 	EXP 	reminder: autoDraw = True
+27.2723 	EXP 	background_3: autoDraw = False
+27.2723 	EXP 	image: autoDraw = False
+27.2723 	EXP 	trial_counter_2: autoDraw = False
+27.2723 	EXP 	reminder: autoDraw = False
+27.2723 	EXP 	background_3: autoDraw = False
+27.2723 	EXP 	image: autoDraw = False
+27.2723 	EXP 	trial_counter_2: autoDraw = False
+27.2723 	EXP 	reminder: autoDraw = False
+27.2723 	EXP 	cues: image = 'stim/blank.png'
+27.2723 	EXP 	target: ori = 0.0
+27.2723 	EXP 	target: image = 'stim/congLeft.png'
+27.2723 	EXP 	background_4: autoDraw = True
+27.2723 	EXP 	cues: autoDraw = True
+27.2723 	EXP 	fixationshort: autoDraw = True
+27.2723 	EXP 	trial_counter: autoDraw = True
+27.2723 	EXP 	reminder_2: autoDraw = True
+27.3724 	EXP 	cues: autoDraw = False
+27.7557 	EXP 	target: autoDraw = True
+27.7723 	EXP 	fixationshort: autoDraw = False
+28.2803 	DATA 	Keypress: left
+28.2890 	EXP 	background_4: autoDraw = False
+28.2890 	EXP 	cues: autoDraw = False
+28.2890 	EXP 	target: autoDraw = False
+28.2890 	EXP 	fixationshort: autoDraw = False
+28.2890 	EXP 	trial_counter: autoDraw = False
+28.2890 	EXP 	reminder_2: autoDraw = False
+28.2890 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+28.2890 	EXP 	text: height = 0.04
+28.2890 	EXP 	text: height = 0.04
+28.2890 	EXP 	text: height = 0.04
+28.2890 	EXP 	text: text = 'Correct! Your RT is : 510ms'
+28.2890 	EXP 	background_5: autoDraw = True
+28.2890 	EXP 	text: autoDraw = True
+28.2890 	EXP 	trial_counter_3: autoDraw = True
+28.2890 	EXP 	reminder_3: autoDraw = True
+29.2729 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/congRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+29.2895 	EXP 	background_5: autoDraw = False
+29.2895 	EXP 	text: autoDraw = False
+29.2895 	EXP 	trial_counter_3: autoDraw = False
+29.2895 	EXP 	reminder_3: autoDraw = False
+29.2895 	EXP 	background_5: autoDraw = False
+29.2895 	EXP 	text: autoDraw = False
+29.2895 	EXP 	trial_counter_3: autoDraw = False
+29.2895 	EXP 	reminder_3: autoDraw = False
+29.2895 	EXP 	background_3: autoDraw = True
+29.2895 	EXP 	image: autoDraw = True
+29.2895 	EXP 	trial_counter_2: autoDraw = True
+29.2895 	EXP 	reminder: autoDraw = True
+29.7393 	EXP 	background_3: autoDraw = False
+29.7393 	EXP 	image: autoDraw = False
+29.7393 	EXP 	trial_counter_2: autoDraw = False
+29.7393 	EXP 	reminder: autoDraw = False
+29.7393 	EXP 	background_3: autoDraw = False
+29.7393 	EXP 	image: autoDraw = False
+29.7393 	EXP 	trial_counter_2: autoDraw = False
+29.7393 	EXP 	reminder: autoDraw = False
+29.7393 	EXP 	cues: image = 'stim/blank.png'
+29.7393 	EXP 	target: ori = 180.0
+29.7393 	EXP 	target: image = 'stim/congRight.png'
+29.7393 	EXP 	background_4: autoDraw = True
+29.7393 	EXP 	cues: autoDraw = True
+29.7393 	EXP 	fixationshort: autoDraw = True
+29.7393 	EXP 	trial_counter: autoDraw = True
+29.7393 	EXP 	reminder_2: autoDraw = True
+29.8390 	EXP 	cues: autoDraw = False
+30.2224 	EXP 	target: autoDraw = True
+30.2389 	EXP 	fixationshort: autoDraw = False
+30.6808 	DATA 	Keypress: left
+30.6889 	EXP 	background_4: autoDraw = False
+30.6889 	EXP 	cues: autoDraw = False
+30.6889 	EXP 	target: autoDraw = False
+30.6889 	EXP 	fixationshort: autoDraw = False
+30.6889 	EXP 	trial_counter: autoDraw = False
+30.6889 	EXP 	reminder_2: autoDraw = False
+30.6889 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+30.6889 	EXP 	text: height = 0.04
+30.6889 	EXP 	text: height = 0.04
+30.6889 	EXP 	text: height = 0.04
+30.6889 	EXP 	text: text = 'Correct! Your RT is : 438ms'
+30.6889 	EXP 	background_5: autoDraw = True
+30.6889 	EXP 	text: autoDraw = True
+30.6889 	EXP 	trial_counter_3: autoDraw = True
+30.6889 	EXP 	reminder_3: autoDraw = True
+31.6727 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+31.6889 	EXP 	background_5: autoDraw = False
+31.6889 	EXP 	text: autoDraw = False
+31.6889 	EXP 	trial_counter_3: autoDraw = False
+31.6889 	EXP 	reminder_3: autoDraw = False
+31.6889 	EXP 	background_5: autoDraw = False
+31.6889 	EXP 	text: autoDraw = False
+31.6889 	EXP 	trial_counter_3: autoDraw = False
+31.6889 	EXP 	reminder_3: autoDraw = False
+31.6889 	EXP 	background_3: autoDraw = True
+31.6889 	EXP 	image: autoDraw = True
+31.6889 	EXP 	trial_counter_2: autoDraw = True
+31.6889 	EXP 	reminder: autoDraw = True
+32.0890 	EXP 	background_3: autoDraw = False
+32.0890 	EXP 	image: autoDraw = False
+32.0890 	EXP 	trial_counter_2: autoDraw = False
+32.0890 	EXP 	reminder: autoDraw = False
+32.0890 	EXP 	background_3: autoDraw = False
+32.0890 	EXP 	image: autoDraw = False
+32.0890 	EXP 	trial_counter_2: autoDraw = False
+32.0890 	EXP 	reminder: autoDraw = False
+32.0890 	EXP 	cues: image = 'stim/blank.png'
+32.0890 	EXP 	target: ori = 180.0
+32.0890 	EXP 	target: image = 'stim/neutralRight.png'
+32.0890 	EXP 	background_4: autoDraw = True
+32.0890 	EXP 	cues: autoDraw = True
+32.0890 	EXP 	fixationshort: autoDraw = True
+32.0890 	EXP 	trial_counter: autoDraw = True
+32.0890 	EXP 	reminder_2: autoDraw = True
+32.1888 	EXP 	cues: autoDraw = False
+32.5723 	EXP 	target: autoDraw = True
+32.5888 	EXP 	fixationshort: autoDraw = False
+33.0261 	DATA 	Keypress: left
+33.0557 	EXP 	background_4: autoDraw = False
+33.0557 	EXP 	cues: autoDraw = False
+33.0557 	EXP 	target: autoDraw = False
+33.0557 	EXP 	fixationshort: autoDraw = False
+33.0557 	EXP 	trial_counter: autoDraw = False
+33.0557 	EXP 	reminder_2: autoDraw = False
+33.0557 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+33.0557 	EXP 	text: height = 0.04
+33.0557 	EXP 	text: height = 0.04
+33.0557 	EXP 	text: height = 0.04
+33.0557 	EXP 	text: text = 'Correct! Your RT is : 451ms'
+33.0557 	EXP 	background_5: autoDraw = True
+33.0557 	EXP 	text: autoDraw = True
+33.0557 	EXP 	trial_counter_3: autoDraw = True
+33.0557 	EXP 	reminder_3: autoDraw = True
+34.0396 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/congRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+34.0556 	EXP 	background_5: autoDraw = False
+34.0556 	EXP 	text: autoDraw = False
+34.0556 	EXP 	trial_counter_3: autoDraw = False
+34.0556 	EXP 	reminder_3: autoDraw = False
+34.0556 	EXP 	background_5: autoDraw = False
+34.0556 	EXP 	text: autoDraw = False
+34.0556 	EXP 	trial_counter_3: autoDraw = False
+34.0556 	EXP 	reminder_3: autoDraw = False
+34.0556 	EXP 	background_3: autoDraw = True
+34.0556 	EXP 	image: autoDraw = True
+34.0556 	EXP 	trial_counter_2: autoDraw = True
+34.0556 	EXP 	reminder: autoDraw = True
+34.4557 	EXP 	background_3: autoDraw = False
+34.4557 	EXP 	image: autoDraw = False
+34.4557 	EXP 	trial_counter_2: autoDraw = False
+34.4557 	EXP 	reminder: autoDraw = False
+34.4557 	EXP 	background_3: autoDraw = False
+34.4557 	EXP 	image: autoDraw = False
+34.4557 	EXP 	trial_counter_2: autoDraw = False
+34.4557 	EXP 	reminder: autoDraw = False
+34.4557 	EXP 	cues: image = 'stim/centre.png'
+34.4557 	EXP 	target: ori = 0.0
+34.4557 	EXP 	target: image = 'stim/congRight.png'
+34.4557 	EXP 	background_4: autoDraw = True
+34.4557 	EXP 	cues: autoDraw = True
+34.4557 	EXP 	fixationshort: autoDraw = True
+34.4557 	EXP 	trial_counter: autoDraw = True
+34.4557 	EXP 	reminder_2: autoDraw = True
+34.5556 	EXP 	cues: autoDraw = False
+34.9388 	EXP 	target: autoDraw = True
+34.9556 	EXP 	fixationshort: autoDraw = False
+35.3808 	DATA 	Keypress: right
+35.3888 	EXP 	background_4: autoDraw = False
+35.3888 	EXP 	cues: autoDraw = False
+35.3888 	EXP 	target: autoDraw = False
+35.3888 	EXP 	fixationshort: autoDraw = False
+35.3888 	EXP 	trial_counter: autoDraw = False
+35.3888 	EXP 	reminder_2: autoDraw = False
+35.3888 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+35.3888 	EXP 	text: height = 0.04
+35.3888 	EXP 	text: height = 0.04
+35.3888 	EXP 	text: height = 0.04
+35.3888 	EXP 	text: text = 'Correct! Your RT is : 432ms'
+35.3888 	EXP 	background_5: autoDraw = True
+35.3888 	EXP 	text: autoDraw = True
+35.3888 	EXP 	trial_counter_3: autoDraw = True
+35.3888 	EXP 	reminder_3: autoDraw = True
+36.3728 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/congRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+36.3889 	EXP 	background_5: autoDraw = False
+36.3889 	EXP 	text: autoDraw = False
+36.3889 	EXP 	trial_counter_3: autoDraw = False
+36.3889 	EXP 	reminder_3: autoDraw = False
+36.3889 	EXP 	background_5: autoDraw = False
+36.3889 	EXP 	text: autoDraw = False
+36.3889 	EXP 	trial_counter_3: autoDraw = False
+36.3889 	EXP 	reminder_3: autoDraw = False
+36.3889 	EXP 	background_3: autoDraw = True
+36.3889 	EXP 	image: autoDraw = True
+36.3889 	EXP 	trial_counter_2: autoDraw = True
+36.3889 	EXP 	reminder: autoDraw = True
+36.9388 	EXP 	background_3: autoDraw = False
+36.9388 	EXP 	image: autoDraw = False
+36.9388 	EXP 	trial_counter_2: autoDraw = False
+36.9388 	EXP 	reminder: autoDraw = False
+36.9388 	EXP 	background_3: autoDraw = False
+36.9388 	EXP 	image: autoDraw = False
+36.9388 	EXP 	trial_counter_2: autoDraw = False
+36.9388 	EXP 	reminder: autoDraw = False
+36.9388 	EXP 	cues: image = 'stim/blank.png'
+36.9388 	EXP 	target: ori = 0.0
+36.9388 	EXP 	target: image = 'stim/congRight.png'
+36.9388 	EXP 	background_4: autoDraw = True
+36.9388 	EXP 	cues: autoDraw = True
+36.9388 	EXP 	fixationshort: autoDraw = True
+36.9388 	EXP 	trial_counter: autoDraw = True
+36.9388 	EXP 	reminder_2: autoDraw = True
+37.0392 	EXP 	cues: autoDraw = False
+37.4223 	EXP 	target: autoDraw = True
+37.4389 	EXP 	fixationshort: autoDraw = False
+37.8593 	DATA 	Keypress: right
+37.8887 	EXP 	background_4: autoDraw = False
+37.8887 	EXP 	cues: autoDraw = False
+37.8887 	EXP 	target: autoDraw = False
+37.8887 	EXP 	fixationshort: autoDraw = False
+37.8887 	EXP 	trial_counter: autoDraw = False
+37.8887 	EXP 	reminder_2: autoDraw = False
+37.8887 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+37.8887 	EXP 	text: height = 0.04
+37.8887 	EXP 	text: height = 0.04
+37.8887 	EXP 	text: height = 0.04
+37.8887 	EXP 	text: text = 'Correct! Your RT is : 435ms'
+37.8887 	EXP 	background_5: autoDraw = True
+37.8887 	EXP 	text: autoDraw = True
+37.8887 	EXP 	trial_counter_3: autoDraw = True
+37.8887 	EXP 	reminder_3: autoDraw = True
+38.8728 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+38.8888 	EXP 	background_5: autoDraw = False
+38.8888 	EXP 	text: autoDraw = False
+38.8888 	EXP 	trial_counter_3: autoDraw = False
+38.8888 	EXP 	reminder_3: autoDraw = False
+38.8888 	EXP 	background_5: autoDraw = False
+38.8888 	EXP 	text: autoDraw = False
+38.8888 	EXP 	trial_counter_3: autoDraw = False
+38.8888 	EXP 	reminder_3: autoDraw = False
+38.8888 	EXP 	background_3: autoDraw = True
+38.8888 	EXP 	image: autoDraw = True
+38.8888 	EXP 	trial_counter_2: autoDraw = True
+38.8888 	EXP 	reminder: autoDraw = True
+39.2888 	EXP 	background_3: autoDraw = False
+39.2888 	EXP 	image: autoDraw = False
+39.2888 	EXP 	trial_counter_2: autoDraw = False
+39.2888 	EXP 	reminder: autoDraw = False
+39.2888 	EXP 	background_3: autoDraw = False
+39.2888 	EXP 	image: autoDraw = False
+39.2888 	EXP 	trial_counter_2: autoDraw = False
+39.2888 	EXP 	reminder: autoDraw = False
+39.2888 	EXP 	cues: image = 'stim/blank.png'
+39.2888 	EXP 	target: ori = 0.0
+39.2888 	EXP 	target: image = 'stim/neutralLeft.png'
+39.2888 	EXP 	background_4: autoDraw = True
+39.2888 	EXP 	cues: autoDraw = True
+39.2888 	EXP 	fixationshort: autoDraw = True
+39.2888 	EXP 	trial_counter: autoDraw = True
+39.2888 	EXP 	reminder_2: autoDraw = True
+39.3885 	EXP 	cues: autoDraw = False
+39.7719 	EXP 	target: autoDraw = True
+39.7884 	EXP 	fixationshort: autoDraw = False
+40.2468 	DATA 	Keypress: left
+40.2553 	EXP 	background_4: autoDraw = False
+40.2553 	EXP 	cues: autoDraw = False
+40.2553 	EXP 	target: autoDraw = False
+40.2553 	EXP 	fixationshort: autoDraw = False
+40.2553 	EXP 	trial_counter: autoDraw = False
+40.2553 	EXP 	reminder_2: autoDraw = False
+40.2553 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+40.2553 	EXP 	text: height = 0.04
+40.2553 	EXP 	text: height = 0.04
+40.2553 	EXP 	text: height = 0.04
+40.2553 	EXP 	text: text = 'Correct! Your RT is : 464ms'
+40.2553 	EXP 	background_5: autoDraw = True
+40.2553 	EXP 	text: autoDraw = True
+40.2553 	EXP 	trial_counter_3: autoDraw = True
+40.2553 	EXP 	reminder_3: autoDraw = True
+41.2389 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+41.2554 	EXP 	background_5: autoDraw = False
+41.2554 	EXP 	text: autoDraw = False
+41.2554 	EXP 	trial_counter_3: autoDraw = False
+41.2554 	EXP 	reminder_3: autoDraw = False
+41.2554 	EXP 	background_5: autoDraw = False
+41.2554 	EXP 	text: autoDraw = False
+41.2554 	EXP 	trial_counter_3: autoDraw = False
+41.2554 	EXP 	reminder_3: autoDraw = False
+41.2554 	EXP 	background_3: autoDraw = True
+41.2554 	EXP 	image: autoDraw = True
+41.2554 	EXP 	trial_counter_2: autoDraw = True
+41.2554 	EXP 	reminder: autoDraw = True
+41.7054 	EXP 	background_3: autoDraw = False
+41.7054 	EXP 	image: autoDraw = False
+41.7054 	EXP 	trial_counter_2: autoDraw = False
+41.7054 	EXP 	reminder: autoDraw = False
+41.7054 	EXP 	background_3: autoDraw = False
+41.7054 	EXP 	image: autoDraw = False
+41.7054 	EXP 	trial_counter_2: autoDraw = False
+41.7054 	EXP 	reminder: autoDraw = False
+41.7054 	EXP 	cues: image = 'stim/centre.png'
+41.7054 	EXP 	target: ori = 180.0
+41.7054 	EXP 	target: image = 'stim/incongLeft.png'
+41.7054 	EXP 	background_4: autoDraw = True
+41.7054 	EXP 	cues: autoDraw = True
+41.7054 	EXP 	fixationshort: autoDraw = True
+41.7054 	EXP 	trial_counter: autoDraw = True
+41.7054 	EXP 	reminder_2: autoDraw = True
+41.8058 	EXP 	cues: autoDraw = False
+42.1889 	EXP 	target: autoDraw = True
+42.2053 	EXP 	fixationshort: autoDraw = False
+42.7804 	DATA 	Keypress: right
+42.7888 	EXP 	background_4: autoDraw = False
+42.7888 	EXP 	cues: autoDraw = False
+42.7888 	EXP 	target: autoDraw = False
+42.7888 	EXP 	fixationshort: autoDraw = False
+42.7888 	EXP 	trial_counter: autoDraw = False
+42.7888 	EXP 	reminder_2: autoDraw = False
+42.7888 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+42.7888 	EXP 	text: height = 0.04
+42.7888 	EXP 	text: height = 0.04
+42.7888 	EXP 	text: height = 0.04
+42.7888 	EXP 	text: text = 'Correct! Your RT is : 582ms'
+42.7888 	EXP 	background_5: autoDraw = True
+42.7888 	EXP 	text: autoDraw = True
+42.7888 	EXP 	trial_counter_3: autoDraw = True
+42.7888 	EXP 	reminder_3: autoDraw = True
+43.7728 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/incongRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+43.7888 	EXP 	background_5: autoDraw = False
+43.7888 	EXP 	text: autoDraw = False
+43.7888 	EXP 	trial_counter_3: autoDraw = False
+43.7888 	EXP 	reminder_3: autoDraw = False
+43.7888 	EXP 	background_5: autoDraw = False
+43.7888 	EXP 	text: autoDraw = False
+43.7888 	EXP 	trial_counter_3: autoDraw = False
+43.7888 	EXP 	reminder_3: autoDraw = False
+43.7888 	EXP 	background_3: autoDraw = True
+43.7888 	EXP 	image: autoDraw = True
+43.7888 	EXP 	trial_counter_2: autoDraw = True
+43.7888 	EXP 	reminder: autoDraw = True
+44.3387 	EXP 	background_3: autoDraw = False
+44.3387 	EXP 	image: autoDraw = False
+44.3387 	EXP 	trial_counter_2: autoDraw = False
+44.3387 	EXP 	reminder: autoDraw = False
+44.3387 	EXP 	background_3: autoDraw = False
+44.3387 	EXP 	image: autoDraw = False
+44.3387 	EXP 	trial_counter_2: autoDraw = False
+44.3387 	EXP 	reminder: autoDraw = False
+44.3387 	EXP 	cues: image = 'stim/centre.png'
+44.3387 	EXP 	target: ori = 180.0
+44.3387 	EXP 	target: image = 'stim/incongRight.png'
+44.3387 	EXP 	background_4: autoDraw = True
+44.3387 	EXP 	cues: autoDraw = True
+44.3387 	EXP 	fixationshort: autoDraw = True
+44.3387 	EXP 	trial_counter: autoDraw = True
+44.3387 	EXP 	reminder_2: autoDraw = True
+44.4384 	EXP 	cues: autoDraw = False
+44.8219 	EXP 	target: autoDraw = True
+44.8386 	EXP 	fixationshort: autoDraw = False
+45.4595 	DATA 	Keypress: left
+45.4883 	EXP 	background_4: autoDraw = False
+45.4883 	EXP 	cues: autoDraw = False
+45.4883 	EXP 	target: autoDraw = False
+45.4883 	EXP 	fixationshort: autoDraw = False
+45.4883 	EXP 	trial_counter: autoDraw = False
+45.4883 	EXP 	reminder_2: autoDraw = False
+45.4883 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+45.4883 	EXP 	text: height = 0.04
+45.4883 	EXP 	text: height = 0.04
+45.4883 	EXP 	text: height = 0.04
+45.4883 	EXP 	text: text = 'Correct! Your RT is : 636ms'
+45.4883 	EXP 	background_5: autoDraw = True
+45.4883 	EXP 	text: autoDraw = True
+45.4883 	EXP 	trial_counter_3: autoDraw = True
+45.4883 	EXP 	reminder_3: autoDraw = True
+46.4727 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+46.4887 	EXP 	background_5: autoDraw = False
+46.4887 	EXP 	text: autoDraw = False
+46.4887 	EXP 	trial_counter_3: autoDraw = False
+46.4887 	EXP 	reminder_3: autoDraw = False
+46.4887 	EXP 	background_5: autoDraw = False
+46.4887 	EXP 	text: autoDraw = False
+46.4887 	EXP 	trial_counter_3: autoDraw = False
+46.4887 	EXP 	reminder_3: autoDraw = False
+46.4887 	EXP 	background_3: autoDraw = True
+46.4887 	EXP 	image: autoDraw = True
+46.4887 	EXP 	trial_counter_2: autoDraw = True
+46.4887 	EXP 	reminder: autoDraw = True
+46.9389 	EXP 	background_3: autoDraw = False
+46.9389 	EXP 	image: autoDraw = False
+46.9389 	EXP 	trial_counter_2: autoDraw = False
+46.9389 	EXP 	reminder: autoDraw = False
+46.9389 	EXP 	background_3: autoDraw = False
+46.9389 	EXP 	image: autoDraw = False
+46.9389 	EXP 	trial_counter_2: autoDraw = False
+46.9389 	EXP 	reminder: autoDraw = False
+46.9389 	EXP 	cues: image = 'stim/both.png'
+46.9389 	EXP 	target: ori = 0.0
+46.9389 	EXP 	target: image = 'stim/neutralLeft.png'
+46.9389 	EXP 	background_4: autoDraw = True
+46.9389 	EXP 	cues: autoDraw = True
+46.9389 	EXP 	fixationshort: autoDraw = True
+46.9389 	EXP 	trial_counter: autoDraw = True
+46.9389 	EXP 	reminder_2: autoDraw = True
+47.0385 	EXP 	cues: autoDraw = False
+47.4223 	EXP 	target: autoDraw = True
+47.4387 	EXP 	fixationshort: autoDraw = False
+47.9305 	DATA 	Keypress: left
+47.9386 	EXP 	background_4: autoDraw = False
+47.9386 	EXP 	cues: autoDraw = False
+47.9386 	EXP 	target: autoDraw = False
+47.9386 	EXP 	fixationshort: autoDraw = False
+47.9386 	EXP 	trial_counter: autoDraw = False
+47.9386 	EXP 	reminder_2: autoDraw = False
+47.9386 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+47.9386 	EXP 	text: height = 0.04
+47.9386 	EXP 	text: height = 0.04
+47.9386 	EXP 	text: height = 0.04
+47.9386 	EXP 	text: text = 'Correct! Your RT is : 491ms'
+47.9386 	EXP 	background_5: autoDraw = True
+47.9386 	EXP 	text: autoDraw = True
+47.9386 	EXP 	trial_counter_3: autoDraw = True
+47.9386 	EXP 	reminder_3: autoDraw = True
+48.9227 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'cue': 'stim/upper.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+48.9386 	EXP 	background_5: autoDraw = False
+48.9386 	EXP 	text: autoDraw = False
+48.9386 	EXP 	trial_counter_3: autoDraw = False
+48.9386 	EXP 	reminder_3: autoDraw = False
+48.9386 	EXP 	background_5: autoDraw = False
+48.9386 	EXP 	text: autoDraw = False
+48.9386 	EXP 	trial_counter_3: autoDraw = False
+48.9386 	EXP 	reminder_3: autoDraw = False
+48.9386 	EXP 	background_3: autoDraw = True
+48.9386 	EXP 	image: autoDraw = True
+48.9386 	EXP 	trial_counter_2: autoDraw = True
+48.9386 	EXP 	reminder: autoDraw = True
+49.3888 	EXP 	background_3: autoDraw = False
+49.3888 	EXP 	image: autoDraw = False
+49.3888 	EXP 	trial_counter_2: autoDraw = False
+49.3888 	EXP 	reminder: autoDraw = False
+49.3888 	EXP 	background_3: autoDraw = False
+49.3888 	EXP 	image: autoDraw = False
+49.3888 	EXP 	trial_counter_2: autoDraw = False
+49.3888 	EXP 	reminder: autoDraw = False
+49.3888 	EXP 	cues: image = 'stim/upper.png'
+49.3888 	EXP 	target: ori = 0.0
+49.3888 	EXP 	target: image = 'stim/congLeft.png'
+49.3888 	EXP 	background_4: autoDraw = True
+49.3888 	EXP 	cues: autoDraw = True
+49.3888 	EXP 	fixationshort: autoDraw = True
+49.3888 	EXP 	trial_counter: autoDraw = True
+49.3888 	EXP 	reminder_2: autoDraw = True
+49.4887 	EXP 	cues: autoDraw = False
+49.8720 	EXP 	target: autoDraw = True
+49.8888 	EXP 	fixationshort: autoDraw = False
+50.2800 	DATA 	Keypress: left
+50.2886 	EXP 	background_4: autoDraw = False
+50.2886 	EXP 	cues: autoDraw = False
+50.2886 	EXP 	target: autoDraw = False
+50.2886 	EXP 	fixationshort: autoDraw = False
+50.2886 	EXP 	trial_counter: autoDraw = False
+50.2886 	EXP 	reminder_2: autoDraw = False
+50.2886 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+50.2886 	EXP 	text: height = 0.04
+50.2886 	EXP 	text: height = 0.04
+50.2886 	EXP 	text: height = 0.04
+50.2886 	EXP 	text: text = 'Correct! Your RT is : 393ms'
+50.2886 	EXP 	background_5: autoDraw = True
+50.2886 	EXP 	text: autoDraw = True
+50.2886 	EXP 	trial_counter_3: autoDraw = True
+50.2886 	EXP 	reminder_3: autoDraw = True
+51.2728 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+51.2886 	EXP 	background_5: autoDraw = False
+51.2886 	EXP 	text: autoDraw = False
+51.2886 	EXP 	trial_counter_3: autoDraw = False
+51.2886 	EXP 	reminder_3: autoDraw = False
+51.2886 	EXP 	background_5: autoDraw = False
+51.2886 	EXP 	text: autoDraw = False
+51.2886 	EXP 	trial_counter_3: autoDraw = False
+51.2886 	EXP 	reminder_3: autoDraw = False
+51.2886 	EXP 	background_3: autoDraw = True
+51.2886 	EXP 	image: autoDraw = True
+51.2886 	EXP 	trial_counter_2: autoDraw = True
+51.2886 	EXP 	reminder: autoDraw = True
+51.8387 	EXP 	background_3: autoDraw = False
+51.8387 	EXP 	image: autoDraw = False
+51.8387 	EXP 	trial_counter_2: autoDraw = False
+51.8387 	EXP 	reminder: autoDraw = False
+51.8387 	EXP 	background_3: autoDraw = False
+51.8387 	EXP 	image: autoDraw = False
+51.8387 	EXP 	trial_counter_2: autoDraw = False
+51.8387 	EXP 	reminder: autoDraw = False
+51.8387 	EXP 	cues: image = 'stim/both.png'
+51.8387 	EXP 	target: ori = 0.0
+51.8387 	EXP 	target: image = 'stim/congLeft.png'
+51.8387 	EXP 	background_4: autoDraw = True
+51.8387 	EXP 	cues: autoDraw = True
+51.8387 	EXP 	fixationshort: autoDraw = True
+51.8387 	EXP 	trial_counter: autoDraw = True
+51.8387 	EXP 	reminder_2: autoDraw = True
+51.9385 	EXP 	cues: autoDraw = False
+52.3220 	EXP 	target: autoDraw = True
+52.3386 	EXP 	fixationshort: autoDraw = False
+53.0492 	DATA 	Keypress: left
+53.0552 	EXP 	background_4: autoDraw = False
+53.0552 	EXP 	cues: autoDraw = False
+53.0552 	EXP 	target: autoDraw = False
+53.0552 	EXP 	fixationshort: autoDraw = False
+53.0552 	EXP 	trial_counter: autoDraw = False
+53.0552 	EXP 	reminder_2: autoDraw = False
+53.0552 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+53.0552 	EXP 	text: height = 0.04
+53.0552 	EXP 	text: height = 0.04
+53.0552 	EXP 	text: height = 0.04
+53.0552 	EXP 	text: text = 'Correct! Your RT is : 705ms'
+53.0552 	EXP 	background_5: autoDraw = True
+53.0552 	EXP 	text: autoDraw = True
+53.0552 	EXP 	trial_counter_3: autoDraw = True
+53.0552 	EXP 	reminder_3: autoDraw = True
+54.0393 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+54.0553 	EXP 	background_5: autoDraw = False
+54.0553 	EXP 	text: autoDraw = False
+54.0553 	EXP 	trial_counter_3: autoDraw = False
+54.0553 	EXP 	reminder_3: autoDraw = False
+54.0553 	EXP 	background_5: autoDraw = False
+54.0553 	EXP 	text: autoDraw = False
+54.0553 	EXP 	trial_counter_3: autoDraw = False
+54.0553 	EXP 	reminder_3: autoDraw = False
+54.0553 	EXP 	background_3: autoDraw = True
+54.0553 	EXP 	image: autoDraw = True
+54.0553 	EXP 	trial_counter_2: autoDraw = True
+54.0553 	EXP 	reminder: autoDraw = True
+54.4556 	EXP 	background_3: autoDraw = False
+54.4556 	EXP 	image: autoDraw = False
+54.4556 	EXP 	trial_counter_2: autoDraw = False
+54.4556 	EXP 	reminder: autoDraw = False
+54.4556 	EXP 	background_3: autoDraw = False
+54.4556 	EXP 	image: autoDraw = False
+54.4556 	EXP 	trial_counter_2: autoDraw = False
+54.4556 	EXP 	reminder: autoDraw = False
+54.4556 	EXP 	cues: image = 'stim/blank.png'
+54.4556 	EXP 	target: ori = 180.0
+54.4556 	EXP 	target: image = 'stim/neutralLeft.png'
+54.4556 	EXP 	background_4: autoDraw = True
+54.4556 	EXP 	cues: autoDraw = True
+54.4556 	EXP 	fixationshort: autoDraw = True
+54.4556 	EXP 	trial_counter: autoDraw = True
+54.4556 	EXP 	reminder_2: autoDraw = True
+54.5552 	EXP 	cues: autoDraw = False
+54.9555 	EXP 	target: autoDraw = True
+54.9555 	EXP 	fixationshort: autoDraw = False
+55.4426 	DATA 	Keypress: right
+55.4721 	EXP 	background_4: autoDraw = False
+55.4721 	EXP 	cues: autoDraw = False
+55.4721 	EXP 	target: autoDraw = False
+55.4721 	EXP 	fixationshort: autoDraw = False
+55.4721 	EXP 	trial_counter: autoDraw = False
+55.4721 	EXP 	reminder_2: autoDraw = False
+55.4721 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+55.4721 	EXP 	text: height = 0.04
+55.4721 	EXP 	text: height = 0.04
+55.4721 	EXP 	text: height = 0.04
+55.4721 	EXP 	text: text = 'Correct! Your RT is : 484ms'
+55.4721 	EXP 	background_5: autoDraw = True
+55.4721 	EXP 	text: autoDraw = True
+55.4721 	EXP 	trial_counter_3: autoDraw = True
+55.4721 	EXP 	reminder_3: autoDraw = True
+56.4558 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'cue': 'stim/lower.png', 'tar': 'stim/congLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+56.4719 	EXP 	background_5: autoDraw = False
+56.4719 	EXP 	text: autoDraw = False
+56.4719 	EXP 	trial_counter_3: autoDraw = False
+56.4719 	EXP 	reminder_3: autoDraw = False
+56.4719 	EXP 	background_5: autoDraw = False
+56.4719 	EXP 	text: autoDraw = False
+56.4719 	EXP 	trial_counter_3: autoDraw = False
+56.4719 	EXP 	reminder_3: autoDraw = False
+56.4719 	EXP 	background_3: autoDraw = True
+56.4719 	EXP 	image: autoDraw = True
+56.4719 	EXP 	trial_counter_2: autoDraw = True
+56.4719 	EXP 	reminder: autoDraw = True
+56.8720 	EXP 	background_3: autoDraw = False
+56.8720 	EXP 	image: autoDraw = False
+56.8720 	EXP 	trial_counter_2: autoDraw = False
+56.8720 	EXP 	reminder: autoDraw = False
+56.8720 	EXP 	background_3: autoDraw = False
+56.8720 	EXP 	image: autoDraw = False
+56.8720 	EXP 	trial_counter_2: autoDraw = False
+56.8720 	EXP 	reminder: autoDraw = False
+56.8720 	EXP 	cues: image = 'stim/lower.png'
+56.8720 	EXP 	target: ori = 180.0
+56.8720 	EXP 	target: image = 'stim/congLeft.png'
+56.8720 	EXP 	background_4: autoDraw = True
+56.8720 	EXP 	cues: autoDraw = True
+56.8720 	EXP 	fixationshort: autoDraw = True
+56.8720 	EXP 	trial_counter: autoDraw = True
+56.8720 	EXP 	reminder_2: autoDraw = True
+56.9718 	EXP 	cues: autoDraw = False
+57.3552 	EXP 	target: autoDraw = True
+57.3719 	EXP 	fixationshort: autoDraw = False
+57.8802 	DATA 	Keypress: right
+57.8886 	EXP 	background_4: autoDraw = False
+57.8886 	EXP 	cues: autoDraw = False
+57.8886 	EXP 	target: autoDraw = False
+57.8886 	EXP 	fixationshort: autoDraw = False
+57.8886 	EXP 	trial_counter: autoDraw = False
+57.8886 	EXP 	reminder_2: autoDraw = False
+57.8886 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+57.8886 	EXP 	text: height = 0.04
+57.8886 	EXP 	text: height = 0.04
+57.8886 	EXP 	text: height = 0.04
+57.8886 	EXP 	text: text = 'Correct! Your RT is : 516ms'
+57.8886 	EXP 	background_5: autoDraw = True
+57.8886 	EXP 	text: autoDraw = True
+57.8886 	EXP 	trial_counter_3: autoDraw = True
+57.8886 	EXP 	reminder_3: autoDraw = True
+58.8725 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/incongRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+58.8884 	EXP 	background_5: autoDraw = False
+58.8884 	EXP 	text: autoDraw = False
+58.8884 	EXP 	trial_counter_3: autoDraw = False
+58.8884 	EXP 	reminder_3: autoDraw = False
+58.8884 	EXP 	background_5: autoDraw = False
+58.8884 	EXP 	text: autoDraw = False
+58.8884 	EXP 	trial_counter_3: autoDraw = False
+58.8884 	EXP 	reminder_3: autoDraw = False
+58.8884 	EXP 	background_3: autoDraw = True
+58.8884 	EXP 	image: autoDraw = True
+58.8884 	EXP 	trial_counter_2: autoDraw = True
+58.8884 	EXP 	reminder: autoDraw = True
+59.4385 	EXP 	background_3: autoDraw = False
+59.4385 	EXP 	image: autoDraw = False
+59.4385 	EXP 	trial_counter_2: autoDraw = False
+59.4385 	EXP 	reminder: autoDraw = False
+59.4385 	EXP 	background_3: autoDraw = False
+59.4385 	EXP 	image: autoDraw = False
+59.4385 	EXP 	trial_counter_2: autoDraw = False
+59.4385 	EXP 	reminder: autoDraw = False
+59.4385 	EXP 	cues: image = 'stim/blank.png'
+59.4385 	EXP 	target: ori = 0.0
+59.4385 	EXP 	target: image = 'stim/incongRight.png'
+59.4385 	EXP 	background_4: autoDraw = True
+59.4385 	EXP 	cues: autoDraw = True
+59.4385 	EXP 	fixationshort: autoDraw = True
+59.4385 	EXP 	trial_counter: autoDraw = True
+59.4385 	EXP 	reminder_2: autoDraw = True
+59.5385 	EXP 	cues: autoDraw = False
+59.9219 	EXP 	target: autoDraw = True
+59.9384 	EXP 	fixationshort: autoDraw = False
+60.6933 	DATA 	Keypress: right
+60.7217 	EXP 	background_4: autoDraw = False
+60.7217 	EXP 	cues: autoDraw = False
+60.7217 	EXP 	target: autoDraw = False
+60.7217 	EXP 	fixationshort: autoDraw = False
+60.7217 	EXP 	trial_counter: autoDraw = False
+60.7217 	EXP 	reminder_2: autoDraw = False
+60.7217 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+60.7217 	EXP 	text: height = 0.04
+60.7217 	EXP 	text: height = 0.04
+60.7217 	EXP 	text: height = 0.04
+60.7217 	EXP 	text: text = 'Correct! Your RT is : 770ms'
+60.7217 	EXP 	background_5: autoDraw = True
+60.7217 	EXP 	text: autoDraw = True
+60.7217 	EXP 	trial_counter_3: autoDraw = True
+60.7217 	EXP 	reminder_3: autoDraw = True
+61.7058 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/congRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+61.7218 	EXP 	background_5: autoDraw = False
+61.7218 	EXP 	text: autoDraw = False
+61.7218 	EXP 	trial_counter_3: autoDraw = False
+61.7218 	EXP 	reminder_3: autoDraw = False
+61.7218 	EXP 	background_5: autoDraw = False
+61.7218 	EXP 	text: autoDraw = False
+61.7218 	EXP 	trial_counter_3: autoDraw = False
+61.7218 	EXP 	reminder_3: autoDraw = False
+61.7218 	EXP 	background_3: autoDraw = True
+61.7218 	EXP 	image: autoDraw = True
+61.7218 	EXP 	trial_counter_2: autoDraw = True
+61.7218 	EXP 	reminder: autoDraw = True
+62.2718 	EXP 	background_3: autoDraw = False
+62.2718 	EXP 	image: autoDraw = False
+62.2718 	EXP 	trial_counter_2: autoDraw = False
+62.2718 	EXP 	reminder: autoDraw = False
+62.2718 	EXP 	background_3: autoDraw = False
+62.2718 	EXP 	image: autoDraw = False
+62.2718 	EXP 	trial_counter_2: autoDraw = False
+62.2718 	EXP 	reminder: autoDraw = False
+62.2718 	EXP 	cues: image = 'stim/centre.png'
+62.2718 	EXP 	target: ori = 180.0
+62.2718 	EXP 	target: image = 'stim/congRight.png'
+62.2718 	EXP 	background_4: autoDraw = True
+62.2718 	EXP 	cues: autoDraw = True
+62.2718 	EXP 	fixationshort: autoDraw = True
+62.2718 	EXP 	trial_counter: autoDraw = True
+62.2718 	EXP 	reminder_2: autoDraw = True
+62.3718 	EXP 	cues: autoDraw = False
+62.7555 	EXP 	target: autoDraw = True
+62.7720 	EXP 	fixationshort: autoDraw = False
+63.2301 	DATA 	Keypress: left
+63.2383 	EXP 	background_4: autoDraw = False
+63.2383 	EXP 	cues: autoDraw = False
+63.2383 	EXP 	target: autoDraw = False
+63.2383 	EXP 	fixationshort: autoDraw = False
+63.2383 	EXP 	trial_counter: autoDraw = False
+63.2383 	EXP 	reminder_2: autoDraw = False
+63.2383 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+63.2383 	EXP 	text: height = 0.04
+63.2383 	EXP 	text: height = 0.04
+63.2383 	EXP 	text: height = 0.04
+63.2383 	EXP 	text: text = 'Correct! Your RT is : 465ms'
+63.2383 	EXP 	background_5: autoDraw = True
+63.2383 	EXP 	text: autoDraw = True
+63.2383 	EXP 	trial_counter_3: autoDraw = True
+63.2383 	EXP 	reminder_3: autoDraw = True
+64.2224 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/incongRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+64.2384 	EXP 	background_5: autoDraw = False
+64.2384 	EXP 	text: autoDraw = False
+64.2384 	EXP 	trial_counter_3: autoDraw = False
+64.2384 	EXP 	reminder_3: autoDraw = False
+64.2384 	EXP 	background_5: autoDraw = False
+64.2384 	EXP 	text: autoDraw = False
+64.2384 	EXP 	trial_counter_3: autoDraw = False
+64.2384 	EXP 	reminder_3: autoDraw = False
+64.2384 	EXP 	background_3: autoDraw = True
+64.2384 	EXP 	image: autoDraw = True
+64.2384 	EXP 	trial_counter_2: autoDraw = True
+64.2384 	EXP 	reminder: autoDraw = True
+64.6885 	EXP 	background_3: autoDraw = False
+64.6885 	EXP 	image: autoDraw = False
+64.6885 	EXP 	trial_counter_2: autoDraw = False
+64.6885 	EXP 	reminder: autoDraw = False
+64.6885 	EXP 	background_3: autoDraw = False
+64.6885 	EXP 	image: autoDraw = False
+64.6885 	EXP 	trial_counter_2: autoDraw = False
+64.6885 	EXP 	reminder: autoDraw = False
+64.6885 	EXP 	cues: image = 'stim/both.png'
+64.6885 	EXP 	target: ori = 180.0
+64.6885 	EXP 	target: image = 'stim/incongRight.png'
+64.6885 	EXP 	background_4: autoDraw = True
+64.6885 	EXP 	cues: autoDraw = True
+64.6885 	EXP 	fixationshort: autoDraw = True
+64.6885 	EXP 	trial_counter: autoDraw = True
+64.6885 	EXP 	reminder_2: autoDraw = True
+64.7883 	EXP 	cues: autoDraw = False
+65.1717 	EXP 	target: autoDraw = True
+65.1884 	EXP 	fixationshort: autoDraw = False
+65.8133 	DATA 	Keypress: left
+65.8218 	EXP 	background_4: autoDraw = False
+65.8218 	EXP 	cues: autoDraw = False
+65.8218 	EXP 	target: autoDraw = False
+65.8218 	EXP 	fixationshort: autoDraw = False
+65.8218 	EXP 	trial_counter: autoDraw = False
+65.8218 	EXP 	reminder_2: autoDraw = False
+65.8218 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+65.8218 	EXP 	text: height = 0.04
+65.8218 	EXP 	text: height = 0.04
+65.8218 	EXP 	text: height = 0.04
+65.8218 	EXP 	text: text = 'Correct! Your RT is : 626ms'
+65.8218 	EXP 	background_5: autoDraw = True
+65.8218 	EXP 	text: autoDraw = True
+65.8218 	EXP 	trial_counter_3: autoDraw = True
+65.8218 	EXP 	reminder_3: autoDraw = True
+66.8060 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+66.8218 	EXP 	background_5: autoDraw = False
+66.8218 	EXP 	text: autoDraw = False
+66.8218 	EXP 	trial_counter_3: autoDraw = False
+66.8218 	EXP 	reminder_3: autoDraw = False
+66.8218 	EXP 	background_5: autoDraw = False
+66.8218 	EXP 	text: autoDraw = False
+66.8218 	EXP 	trial_counter_3: autoDraw = False
+66.8218 	EXP 	reminder_3: autoDraw = False
+66.8218 	EXP 	background_3: autoDraw = True
+66.8218 	EXP 	image: autoDraw = True
+66.8218 	EXP 	trial_counter_2: autoDraw = True
+66.8218 	EXP 	reminder: autoDraw = True
+67.3717 	EXP 	background_3: autoDraw = False
+67.3717 	EXP 	image: autoDraw = False
+67.3717 	EXP 	trial_counter_2: autoDraw = False
+67.3717 	EXP 	reminder: autoDraw = False
+67.3717 	EXP 	background_3: autoDraw = False
+67.3717 	EXP 	image: autoDraw = False
+67.3717 	EXP 	trial_counter_2: autoDraw = False
+67.3717 	EXP 	reminder: autoDraw = False
+67.3717 	EXP 	cues: image = 'stim/centre.png'
+67.3717 	EXP 	target: ori = 180.0
+67.3717 	EXP 	target: image = 'stim/neutralRight.png'
+67.3717 	EXP 	background_4: autoDraw = True
+67.3717 	EXP 	cues: autoDraw = True
+67.3717 	EXP 	fixationshort: autoDraw = True
+67.3717 	EXP 	trial_counter: autoDraw = True
+67.3717 	EXP 	reminder_2: autoDraw = True
+67.4718 	EXP 	cues: autoDraw = False
+67.8552 	EXP 	target: autoDraw = True
+67.8716 	EXP 	fixationshort: autoDraw = False
+68.4131 	DATA 	Keypress: left
+68.4216 	EXP 	background_4: autoDraw = False
+68.4216 	EXP 	cues: autoDraw = False
+68.4216 	EXP 	target: autoDraw = False
+68.4216 	EXP 	fixationshort: autoDraw = False
+68.4216 	EXP 	trial_counter: autoDraw = False
+68.4216 	EXP 	reminder_2: autoDraw = False
+68.4216 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+68.4216 	EXP 	text: height = 0.04
+68.4216 	EXP 	text: height = 0.04
+68.4216 	EXP 	text: height = 0.04
+68.4216 	EXP 	text: text = 'Correct! Your RT is : 541ms'
+68.4216 	EXP 	background_5: autoDraw = True
+68.4216 	EXP 	text: autoDraw = True
+68.4216 	EXP 	trial_counter_3: autoDraw = True
+68.4216 	EXP 	reminder_3: autoDraw = True
+69.4055 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+69.4218 	EXP 	background_5: autoDraw = False
+69.4218 	EXP 	text: autoDraw = False
+69.4218 	EXP 	trial_counter_3: autoDraw = False
+69.4218 	EXP 	reminder_3: autoDraw = False
+69.4218 	EXP 	background_5: autoDraw = False
+69.4218 	EXP 	text: autoDraw = False
+69.4218 	EXP 	trial_counter_3: autoDraw = False
+69.4218 	EXP 	reminder_3: autoDraw = False
+69.4218 	EXP 	background_3: autoDraw = True
+69.4218 	EXP 	image: autoDraw = True
+69.4218 	EXP 	trial_counter_2: autoDraw = True
+69.4218 	EXP 	reminder: autoDraw = True
+69.9718 	EXP 	background_3: autoDraw = False
+69.9718 	EXP 	image: autoDraw = False
+69.9718 	EXP 	trial_counter_2: autoDraw = False
+69.9718 	EXP 	reminder: autoDraw = False
+69.9718 	EXP 	background_3: autoDraw = False
+69.9718 	EXP 	image: autoDraw = False
+69.9718 	EXP 	trial_counter_2: autoDraw = False
+69.9718 	EXP 	reminder: autoDraw = False
+69.9718 	EXP 	cues: image = 'stim/both.png'
+69.9718 	EXP 	target: ori = 180.0
+69.9718 	EXP 	target: image = 'stim/neutralRight.png'
+69.9718 	EXP 	background_4: autoDraw = True
+69.9718 	EXP 	cues: autoDraw = True
+69.9718 	EXP 	fixationshort: autoDraw = True
+69.9718 	EXP 	trial_counter: autoDraw = True
+69.9718 	EXP 	reminder_2: autoDraw = True
+70.0717 	EXP 	cues: autoDraw = False
+70.4551 	EXP 	target: autoDraw = True
+70.4717 	EXP 	fixationshort: autoDraw = False
+70.9633 	DATA 	Keypress: left
+70.9716 	EXP 	background_4: autoDraw = False
+70.9716 	EXP 	cues: autoDraw = False
+70.9716 	EXP 	target: autoDraw = False
+70.9716 	EXP 	fixationshort: autoDraw = False
+70.9716 	EXP 	trial_counter: autoDraw = False
+70.9716 	EXP 	reminder_2: autoDraw = False
+70.9716 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+70.9716 	EXP 	text: height = 0.04
+70.9716 	EXP 	text: height = 0.04
+70.9716 	EXP 	text: height = 0.04
+70.9716 	EXP 	text: text = 'Correct! Your RT is : 498ms'
+70.9716 	EXP 	background_5: autoDraw = True
+70.9716 	EXP 	text: autoDraw = True
+70.9716 	EXP 	trial_counter_3: autoDraw = True
+70.9716 	EXP 	reminder_3: autoDraw = True
+71.9556 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+71.9716 	EXP 	background_5: autoDraw = False
+71.9716 	EXP 	text: autoDraw = False
+71.9716 	EXP 	trial_counter_3: autoDraw = False
+71.9716 	EXP 	reminder_3: autoDraw = False
+71.9716 	EXP 	background_5: autoDraw = False
+71.9716 	EXP 	text: autoDraw = False
+71.9716 	EXP 	trial_counter_3: autoDraw = False
+71.9716 	EXP 	reminder_3: autoDraw = False
+71.9716 	EXP 	background_3: autoDraw = True
+71.9716 	EXP 	image: autoDraw = True
+71.9716 	EXP 	trial_counter_2: autoDraw = True
+71.9716 	EXP 	reminder: autoDraw = True
+72.3717 	EXP 	background_3: autoDraw = False
+72.3717 	EXP 	image: autoDraw = False
+72.3717 	EXP 	trial_counter_2: autoDraw = False
+72.3717 	EXP 	reminder: autoDraw = False
+72.3717 	EXP 	background_3: autoDraw = False
+72.3717 	EXP 	image: autoDraw = False
+72.3717 	EXP 	trial_counter_2: autoDraw = False
+72.3717 	EXP 	reminder: autoDraw = False
+72.3717 	EXP 	cues: image = 'stim/blank.png'
+72.3717 	EXP 	target: ori = 180.0
+72.3717 	EXP 	target: image = 'stim/incongLeft.png'
+72.3717 	EXP 	background_4: autoDraw = True
+72.3717 	EXP 	cues: autoDraw = True
+72.3717 	EXP 	fixationshort: autoDraw = True
+72.3717 	EXP 	trial_counter: autoDraw = True
+72.3717 	EXP 	reminder_2: autoDraw = True
+72.4715 	EXP 	cues: autoDraw = False
+72.8550 	EXP 	target: autoDraw = True
+72.8715 	EXP 	fixationshort: autoDraw = False
+73.3470 	DATA 	Keypress: right
+73.3551 	EXP 	background_4: autoDraw = False
+73.3551 	EXP 	cues: autoDraw = False
+73.3551 	EXP 	target: autoDraw = False
+73.3551 	EXP 	fixationshort: autoDraw = False
+73.3551 	EXP 	trial_counter: autoDraw = False
+73.3551 	EXP 	reminder_2: autoDraw = False
+73.3551 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+73.3551 	EXP 	text: height = 0.04
+73.3551 	EXP 	text: height = 0.04
+73.3551 	EXP 	text: height = 0.04
+73.3551 	EXP 	text: text = 'Correct! Your RT is : 472ms'
+73.3551 	EXP 	background_5: autoDraw = True
+73.3551 	EXP 	text: autoDraw = True
+73.3551 	EXP 	trial_counter_3: autoDraw = True
+73.3551 	EXP 	reminder_3: autoDraw = True
+74.3389 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/congLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+74.3549 	EXP 	background_5: autoDraw = False
+74.3549 	EXP 	text: autoDraw = False
+74.3549 	EXP 	trial_counter_3: autoDraw = False
+74.3549 	EXP 	reminder_3: autoDraw = False
+74.3549 	EXP 	background_5: autoDraw = False
+74.3549 	EXP 	text: autoDraw = False
+74.3549 	EXP 	trial_counter_3: autoDraw = False
+74.3549 	EXP 	reminder_3: autoDraw = False
+74.3549 	EXP 	background_3: autoDraw = True
+74.3549 	EXP 	image: autoDraw = True
+74.3549 	EXP 	trial_counter_2: autoDraw = True
+74.3549 	EXP 	reminder: autoDraw = True
+74.9051 	EXP 	background_3: autoDraw = False
+74.9051 	EXP 	image: autoDraw = False
+74.9051 	EXP 	trial_counter_2: autoDraw = False
+74.9051 	EXP 	reminder: autoDraw = False
+74.9051 	EXP 	background_3: autoDraw = False
+74.9051 	EXP 	image: autoDraw = False
+74.9051 	EXP 	trial_counter_2: autoDraw = False
+74.9051 	EXP 	reminder: autoDraw = False
+74.9051 	EXP 	cues: image = 'stim/blank.png'
+74.9051 	EXP 	target: ori = 180.0
+74.9051 	EXP 	target: image = 'stim/congLeft.png'
+74.9051 	EXP 	background_4: autoDraw = True
+74.9051 	EXP 	cues: autoDraw = True
+74.9051 	EXP 	fixationshort: autoDraw = True
+74.9051 	EXP 	trial_counter: autoDraw = True
+74.9051 	EXP 	reminder_2: autoDraw = True
+75.0049 	EXP 	cues: autoDraw = False
+75.3883 	EXP 	target: autoDraw = True
+75.4050 	EXP 	fixationshort: autoDraw = False
+75.7465 	DATA 	Keypress: right
+75.7549 	EXP 	background_4: autoDraw = False
+75.7549 	EXP 	cues: autoDraw = False
+75.7549 	EXP 	target: autoDraw = False
+75.7549 	EXP 	fixationshort: autoDraw = False
+75.7549 	EXP 	trial_counter: autoDraw = False
+75.7549 	EXP 	reminder_2: autoDraw = False
+75.7549 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+75.7549 	EXP 	text: height = 0.04
+75.7549 	EXP 	text: height = 0.04
+75.7549 	EXP 	text: height = 0.04
+75.7549 	EXP 	text: text = 'Correct! Your RT is : 348ms'
+75.7549 	EXP 	background_5: autoDraw = True
+75.7549 	EXP 	text: autoDraw = True
+75.7549 	EXP 	trial_counter_3: autoDraw = True
+75.7549 	EXP 	reminder_3: autoDraw = True
+76.7387 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'cue': 'stim/lower.png', 'tar': 'stim/congRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+76.7549 	EXP 	background_5: autoDraw = False
+76.7549 	EXP 	text: autoDraw = False
+76.7549 	EXP 	trial_counter_3: autoDraw = False
+76.7549 	EXP 	reminder_3: autoDraw = False
+76.7549 	EXP 	background_5: autoDraw = False
+76.7549 	EXP 	text: autoDraw = False
+76.7549 	EXP 	trial_counter_3: autoDraw = False
+76.7549 	EXP 	reminder_3: autoDraw = False
+76.7549 	EXP 	background_3: autoDraw = True
+76.7549 	EXP 	image: autoDraw = True
+76.7549 	EXP 	trial_counter_2: autoDraw = True
+76.7549 	EXP 	reminder: autoDraw = True
+77.2549 	EXP 	background_3: autoDraw = False
+77.2549 	EXP 	image: autoDraw = False
+77.2549 	EXP 	trial_counter_2: autoDraw = False
+77.2549 	EXP 	reminder: autoDraw = False
+77.2549 	EXP 	background_3: autoDraw = False
+77.2549 	EXP 	image: autoDraw = False
+77.2549 	EXP 	trial_counter_2: autoDraw = False
+77.2549 	EXP 	reminder: autoDraw = False
+77.2549 	EXP 	cues: image = 'stim/lower.png'
+77.2549 	EXP 	target: ori = 180.0
+77.2549 	EXP 	target: image = 'stim/congRight.png'
+77.2549 	EXP 	background_4: autoDraw = True
+77.2549 	EXP 	cues: autoDraw = True
+77.2549 	EXP 	fixationshort: autoDraw = True
+77.2549 	EXP 	trial_counter: autoDraw = True
+77.2549 	EXP 	reminder_2: autoDraw = True
+77.3549 	EXP 	cues: autoDraw = False
+77.7382 	EXP 	target: autoDraw = True
+77.7549 	EXP 	fixationshort: autoDraw = False
+78.2134 	DATA 	Keypress: left
+78.2216 	EXP 	background_4: autoDraw = False
+78.2216 	EXP 	cues: autoDraw = False
+78.2216 	EXP 	target: autoDraw = False
+78.2216 	EXP 	fixationshort: autoDraw = False
+78.2216 	EXP 	trial_counter: autoDraw = False
+78.2216 	EXP 	reminder_2: autoDraw = False
+78.2216 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+78.2216 	EXP 	text: height = 0.04
+78.2216 	EXP 	text: height = 0.04
+78.2216 	EXP 	text: height = 0.04
+78.2216 	EXP 	text: text = 'Correct! Your RT is : 456ms'
+78.2216 	EXP 	background_5: autoDraw = True
+78.2216 	EXP 	text: autoDraw = True
+78.2216 	EXP 	trial_counter_3: autoDraw = True
+78.2216 	EXP 	reminder_3: autoDraw = True
+79.2055 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'cue': 'stim/upper.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+79.2216 	EXP 	background_5: autoDraw = False
+79.2216 	EXP 	text: autoDraw = False
+79.2216 	EXP 	trial_counter_3: autoDraw = False
+79.2216 	EXP 	reminder_3: autoDraw = False
+79.2216 	EXP 	background_5: autoDraw = False
+79.2216 	EXP 	text: autoDraw = False
+79.2216 	EXP 	trial_counter_3: autoDraw = False
+79.2216 	EXP 	reminder_3: autoDraw = False
+79.2216 	EXP 	background_3: autoDraw = True
+79.2216 	EXP 	image: autoDraw = True
+79.2216 	EXP 	trial_counter_2: autoDraw = True
+79.2216 	EXP 	reminder: autoDraw = True
+79.6217 	EXP 	background_3: autoDraw = False
+79.6217 	EXP 	image: autoDraw = False
+79.6217 	EXP 	trial_counter_2: autoDraw = False
+79.6217 	EXP 	reminder: autoDraw = False
+79.6217 	EXP 	background_3: autoDraw = False
+79.6217 	EXP 	image: autoDraw = False
+79.6217 	EXP 	trial_counter_2: autoDraw = False
+79.6217 	EXP 	reminder: autoDraw = False
+79.6217 	EXP 	cues: image = 'stim/upper.png'
+79.6217 	EXP 	target: ori = 0.0
+79.6217 	EXP 	target: image = 'stim/neutralLeft.png'
+79.6217 	EXP 	background_4: autoDraw = True
+79.6217 	EXP 	cues: autoDraw = True
+79.6217 	EXP 	fixationshort: autoDraw = True
+79.6217 	EXP 	trial_counter: autoDraw = True
+79.6217 	EXP 	reminder_2: autoDraw = True
+79.7214 	EXP 	cues: autoDraw = False
+80.1049 	EXP 	target: autoDraw = True
+80.1216 	EXP 	fixationshort: autoDraw = False
+80.6302 	DATA 	Keypress: left
+80.6383 	EXP 	background_4: autoDraw = False
+80.6383 	EXP 	cues: autoDraw = False
+80.6383 	EXP 	target: autoDraw = False
+80.6383 	EXP 	fixationshort: autoDraw = False
+80.6383 	EXP 	trial_counter: autoDraw = False
+80.6383 	EXP 	reminder_2: autoDraw = False
+80.6383 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+80.6383 	EXP 	text: height = 0.04
+80.6383 	EXP 	text: height = 0.04
+80.6383 	EXP 	text: height = 0.04
+80.6383 	EXP 	text: text = 'Correct! Your RT is : 510ms'
+80.6383 	EXP 	background_5: autoDraw = True
+80.6383 	EXP 	text: autoDraw = True
+80.6383 	EXP 	trial_counter_3: autoDraw = True
+80.6383 	EXP 	reminder_3: autoDraw = True
+81.6221 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/incongRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+81.6379 	EXP 	background_5: autoDraw = False
+81.6379 	EXP 	text: autoDraw = False
+81.6379 	EXP 	trial_counter_3: autoDraw = False
+81.6379 	EXP 	reminder_3: autoDraw = False
+81.6379 	EXP 	background_5: autoDraw = False
+81.6379 	EXP 	text: autoDraw = False
+81.6379 	EXP 	trial_counter_3: autoDraw = False
+81.6379 	EXP 	reminder_3: autoDraw = False
+81.6379 	EXP 	background_3: autoDraw = True
+81.6379 	EXP 	image: autoDraw = True
+81.6379 	EXP 	trial_counter_2: autoDraw = True
+81.6379 	EXP 	reminder: autoDraw = True
+82.1381 	EXP 	background_3: autoDraw = False
+82.1381 	EXP 	image: autoDraw = False
+82.1381 	EXP 	trial_counter_2: autoDraw = False
+82.1381 	EXP 	reminder: autoDraw = False
+82.1381 	EXP 	background_3: autoDraw = False
+82.1381 	EXP 	image: autoDraw = False
+82.1381 	EXP 	trial_counter_2: autoDraw = False
+82.1381 	EXP 	reminder: autoDraw = False
+82.1381 	EXP 	cues: image = 'stim/blank.png'
+82.1381 	EXP 	target: ori = 180.0
+82.1381 	EXP 	target: image = 'stim/incongRight.png'
+82.1381 	EXP 	background_4: autoDraw = True
+82.1381 	EXP 	cues: autoDraw = True
+82.1381 	EXP 	fixationshort: autoDraw = True
+82.1381 	EXP 	trial_counter: autoDraw = True
+82.1381 	EXP 	reminder_2: autoDraw = True
+82.2381 	EXP 	cues: autoDraw = False
+82.6215 	EXP 	target: autoDraw = True
+82.6381 	EXP 	fixationshort: autoDraw = False
+83.2633 	DATA 	Keypress: left
+83.2714 	EXP 	background_4: autoDraw = False
+83.2714 	EXP 	cues: autoDraw = False
+83.2714 	EXP 	target: autoDraw = False
+83.2714 	EXP 	fixationshort: autoDraw = False
+83.2714 	EXP 	trial_counter: autoDraw = False
+83.2714 	EXP 	reminder_2: autoDraw = False
+83.2714 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+83.2714 	EXP 	text: height = 0.04
+83.2714 	EXP 	text: height = 0.04
+83.2714 	EXP 	text: height = 0.04
+83.2714 	EXP 	text: text = 'Correct! Your RT is : 622ms'
+83.2714 	EXP 	background_5: autoDraw = True
+83.2714 	EXP 	text: autoDraw = True
+83.2714 	EXP 	trial_counter_3: autoDraw = True
+83.2714 	EXP 	reminder_3: autoDraw = True
+84.2556 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+84.2715 	EXP 	background_5: autoDraw = False
+84.2715 	EXP 	text: autoDraw = False
+84.2715 	EXP 	trial_counter_3: autoDraw = False
+84.2715 	EXP 	reminder_3: autoDraw = False
+84.2715 	EXP 	background_5: autoDraw = False
+84.2715 	EXP 	text: autoDraw = False
+84.2715 	EXP 	trial_counter_3: autoDraw = False
+84.2715 	EXP 	reminder_3: autoDraw = False
+84.2715 	EXP 	background_3: autoDraw = True
+84.2715 	EXP 	image: autoDraw = True
+84.2715 	EXP 	trial_counter_2: autoDraw = True
+84.2715 	EXP 	reminder: autoDraw = True
+84.7715 	EXP 	background_3: autoDraw = False
+84.7715 	EXP 	image: autoDraw = False
+84.7715 	EXP 	trial_counter_2: autoDraw = False
+84.7715 	EXP 	reminder: autoDraw = False
+84.7715 	EXP 	background_3: autoDraw = False
+84.7715 	EXP 	image: autoDraw = False
+84.7715 	EXP 	trial_counter_2: autoDraw = False
+84.7715 	EXP 	reminder: autoDraw = False
+84.7715 	EXP 	cues: image = 'stim/centre.png'
+84.7715 	EXP 	target: ori = 0.0
+84.7715 	EXP 	target: image = 'stim/incongLeft.png'
+84.7715 	EXP 	background_4: autoDraw = True
+84.7715 	EXP 	cues: autoDraw = True
+84.7715 	EXP 	fixationshort: autoDraw = True
+84.7715 	EXP 	trial_counter: autoDraw = True
+84.7715 	EXP 	reminder_2: autoDraw = True
+84.8714 	EXP 	cues: autoDraw = False
+85.2548 	EXP 	target: autoDraw = True
+85.2714 	EXP 	fixationshort: autoDraw = False
+85.8481 	DATA 	Keypress: left
+85.8547 	EXP 	background_4: autoDraw = False
+85.8547 	EXP 	cues: autoDraw = False
+85.8547 	EXP 	target: autoDraw = False
+85.8547 	EXP 	fixationshort: autoDraw = False
+85.8547 	EXP 	trial_counter: autoDraw = False
+85.8547 	EXP 	reminder_2: autoDraw = False
+85.8547 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+85.8547 	EXP 	text: height = 0.04
+85.8547 	EXP 	text: height = 0.04
+85.8547 	EXP 	text: height = 0.04
+85.8547 	EXP 	text: text = 'Correct! Your RT is : 582ms'
+85.8547 	EXP 	background_5: autoDraw = True
+85.8547 	EXP 	text: autoDraw = True
+85.8547 	EXP 	trial_counter_3: autoDraw = True
+85.8547 	EXP 	reminder_3: autoDraw = True
+86.8386 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/congLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+86.8548 	EXP 	background_5: autoDraw = False
+86.8548 	EXP 	text: autoDraw = False
+86.8548 	EXP 	trial_counter_3: autoDraw = False
+86.8548 	EXP 	reminder_3: autoDraw = False
+86.8548 	EXP 	background_5: autoDraw = False
+86.8548 	EXP 	text: autoDraw = False
+86.8548 	EXP 	trial_counter_3: autoDraw = False
+86.8548 	EXP 	reminder_3: autoDraw = False
+86.8548 	EXP 	background_3: autoDraw = True
+86.8548 	EXP 	image: autoDraw = True
+86.8548 	EXP 	trial_counter_2: autoDraw = True
+86.8548 	EXP 	reminder: autoDraw = True
+87.3547 	EXP 	background_3: autoDraw = False
+87.3547 	EXP 	image: autoDraw = False
+87.3547 	EXP 	trial_counter_2: autoDraw = False
+87.3547 	EXP 	reminder: autoDraw = False
+87.3547 	EXP 	background_3: autoDraw = False
+87.3547 	EXP 	image: autoDraw = False
+87.3547 	EXP 	trial_counter_2: autoDraw = False
+87.3547 	EXP 	reminder: autoDraw = False
+87.3547 	EXP 	cues: image = 'stim/centre.png'
+87.3547 	EXP 	target: ori = 180.0
+87.3547 	EXP 	target: image = 'stim/congLeft.png'
+87.3547 	EXP 	background_4: autoDraw = True
+87.3547 	EXP 	cues: autoDraw = True
+87.3547 	EXP 	fixationshort: autoDraw = True
+87.3547 	EXP 	trial_counter: autoDraw = True
+87.3547 	EXP 	reminder_2: autoDraw = True
+87.4546 	EXP 	cues: autoDraw = False
+87.8380 	EXP 	target: autoDraw = True
+87.8548 	EXP 	fixationshort: autoDraw = False
+88.3135 	DATA 	Keypress: right
+88.3213 	EXP 	background_4: autoDraw = False
+88.3213 	EXP 	cues: autoDraw = False
+88.3213 	EXP 	target: autoDraw = False
+88.3213 	EXP 	fixationshort: autoDraw = False
+88.3213 	EXP 	trial_counter: autoDraw = False
+88.3213 	EXP 	reminder_2: autoDraw = False
+88.3213 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+88.3213 	EXP 	text: height = 0.04
+88.3213 	EXP 	text: height = 0.04
+88.3213 	EXP 	text: height = 0.04
+88.3213 	EXP 	text: text = 'Correct! Your RT is : 457ms'
+88.3213 	EXP 	background_5: autoDraw = True
+88.3213 	EXP 	text: autoDraw = True
+88.3213 	EXP 	trial_counter_3: autoDraw = True
+88.3213 	EXP 	reminder_3: autoDraw = True
+89.3054 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+89.3214 	EXP 	background_5: autoDraw = False
+89.3214 	EXP 	text: autoDraw = False
+89.3214 	EXP 	trial_counter_3: autoDraw = False
+89.3214 	EXP 	reminder_3: autoDraw = False
+89.3214 	EXP 	background_5: autoDraw = False
+89.3214 	EXP 	text: autoDraw = False
+89.3214 	EXP 	trial_counter_3: autoDraw = False
+89.3214 	EXP 	reminder_3: autoDraw = False
+89.3214 	EXP 	background_3: autoDraw = True
+89.3214 	EXP 	image: autoDraw = True
+89.3214 	EXP 	trial_counter_2: autoDraw = True
+89.3214 	EXP 	reminder: autoDraw = True
+89.8215 	EXP 	background_3: autoDraw = False
+89.8215 	EXP 	image: autoDraw = False
+89.8215 	EXP 	trial_counter_2: autoDraw = False
+89.8215 	EXP 	reminder: autoDraw = False
+89.8215 	EXP 	background_3: autoDraw = False
+89.8215 	EXP 	image: autoDraw = False
+89.8215 	EXP 	trial_counter_2: autoDraw = False
+89.8215 	EXP 	reminder: autoDraw = False
+89.8215 	EXP 	cues: image = 'stim/both.png'
+89.8215 	EXP 	target: ori = 180.0
+89.8215 	EXP 	target: image = 'stim/neutralLeft.png'
+89.8215 	EXP 	background_4: autoDraw = True
+89.8215 	EXP 	cues: autoDraw = True
+89.8215 	EXP 	fixationshort: autoDraw = True
+89.8215 	EXP 	trial_counter: autoDraw = True
+89.8215 	EXP 	reminder_2: autoDraw = True
+89.9212 	EXP 	cues: autoDraw = False
+90.3047 	EXP 	target: autoDraw = True
+90.3213 	EXP 	fixationshort: autoDraw = False
+90.4459 	DATA 	Keypress: right
+90.4546 	EXP 	background_4: autoDraw = False
+90.4546 	EXP 	cues: autoDraw = False
+90.4546 	EXP 	target: autoDraw = False
+90.4546 	EXP 	fixationshort: autoDraw = False
+90.4546 	EXP 	trial_counter: autoDraw = False
+90.4546 	EXP 	reminder_2: autoDraw = False
+90.4546 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+90.4546 	EXP 	text: height = 0.04
+90.4546 	EXP 	text: height = 0.04
+90.4546 	EXP 	text: height = 0.04
+90.4546 	EXP 	text: text = 'Correct! Your RT is : 128ms'
+90.4546 	EXP 	background_5: autoDraw = True
+90.4546 	EXP 	text: autoDraw = True
+90.4546 	EXP 	trial_counter_3: autoDraw = True
+90.4546 	EXP 	reminder_3: autoDraw = True
+90.6084 	DATA 	Keypress: right
+90.7913 	DATA 	Keypress: right
+90.9586 	DATA 	Keypress: right
+91.1082 	DATA 	Keypress: right
+91.2748 	DATA 	Keypress: right
+91.4084 	DATA 	Keypress: left
+91.4387 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'cue': 'stim/upper.png', 'tar': 'stim/incongRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+91.4547 	EXP 	background_5: autoDraw = False
+91.4547 	EXP 	text: autoDraw = False
+91.4547 	EXP 	trial_counter_3: autoDraw = False
+91.4547 	EXP 	reminder_3: autoDraw = False
+91.4547 	EXP 	background_5: autoDraw = False
+91.4547 	EXP 	text: autoDraw = False
+91.4547 	EXP 	trial_counter_3: autoDraw = False
+91.4547 	EXP 	reminder_3: autoDraw = False
+91.4547 	EXP 	background_3: autoDraw = True
+91.4547 	EXP 	image: autoDraw = True
+91.4547 	EXP 	trial_counter_2: autoDraw = True
+91.4547 	EXP 	reminder: autoDraw = True
+91.5755 	DATA 	Keypress: left
+91.7082 	DATA 	Keypress: left
+91.8416 	DATA 	Keypress: left
+91.9046 	EXP 	background_3: autoDraw = False
+91.9046 	EXP 	image: autoDraw = False
+91.9046 	EXP 	trial_counter_2: autoDraw = False
+91.9046 	EXP 	reminder: autoDraw = False
+91.9046 	EXP 	background_3: autoDraw = False
+91.9046 	EXP 	image: autoDraw = False
+91.9046 	EXP 	trial_counter_2: autoDraw = False
+91.9046 	EXP 	reminder: autoDraw = False
+91.9046 	EXP 	cues: image = 'stim/upper.png'
+91.9046 	EXP 	target: ori = 0.0
+91.9046 	EXP 	target: image = 'stim/incongRight.png'
+91.9046 	EXP 	background_4: autoDraw = True
+91.9046 	EXP 	cues: autoDraw = True
+91.9046 	EXP 	fixationshort: autoDraw = True
+91.9046 	EXP 	trial_counter: autoDraw = True
+91.9046 	EXP 	reminder_2: autoDraw = True
+91.9914 	DATA 	Keypress: left
+92.0046 	EXP 	cues: autoDraw = False
+92.1254 	DATA 	Keypress: left
+92.2749 	DATA 	Keypress: left
+92.3880 	EXP 	target: autoDraw = True
+92.4046 	EXP 	fixationshort: autoDraw = False
+92.4454 	DATA 	Keypress: left
+92.4546 	EXP 	background_4: autoDraw = False
+92.4546 	EXP 	cues: autoDraw = False
+92.4546 	EXP 	target: autoDraw = False
+92.4546 	EXP 	fixationshort: autoDraw = False
+92.4546 	EXP 	trial_counter: autoDraw = False
+92.4546 	EXP 	reminder_2: autoDraw = False
+92.4546 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+92.4546 	EXP 	text: height = 0.04
+92.4546 	EXP 	text: height = 0.04
+92.4546 	EXP 	text: height = 0.04
+92.4546 	EXP 	text: text = 'Incorrect!'
+92.4546 	EXP 	background_5: autoDraw = True
+92.4546 	EXP 	text: autoDraw = True
+92.4546 	EXP 	trial_counter_3: autoDraw = True
+92.4546 	EXP 	reminder_3: autoDraw = True
+92.5750 	DATA 	Keypress: left
+92.7248 	DATA 	Keypress: left
+92.9080 	DATA 	Keypress: right
+93.0749 	DATA 	Keypress: right
+93.2250 	DATA 	Keypress: right
+93.4386 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+93.4546 	EXP 	background_5: autoDraw = False
+93.4546 	EXP 	text: autoDraw = False
+93.4546 	EXP 	trial_counter_3: autoDraw = False
+93.4546 	EXP 	reminder_3: autoDraw = False
+93.4546 	EXP 	background_5: autoDraw = False
+93.4546 	EXP 	text: autoDraw = False
+93.4546 	EXP 	trial_counter_3: autoDraw = False
+93.4546 	EXP 	reminder_3: autoDraw = False
+93.4546 	EXP 	background_3: autoDraw = True
+93.4546 	EXP 	image: autoDraw = True
+93.4546 	EXP 	trial_counter_2: autoDraw = True
+93.4546 	EXP 	reminder: autoDraw = True
+93.7082 	DATA 	Keypress: left
+93.8547 	EXP 	background_3: autoDraw = False
+93.8547 	EXP 	image: autoDraw = False
+93.8547 	EXP 	trial_counter_2: autoDraw = False
+93.8547 	EXP 	reminder: autoDraw = False
+93.8547 	EXP 	background_3: autoDraw = False
+93.8547 	EXP 	image: autoDraw = False
+93.8547 	EXP 	trial_counter_2: autoDraw = False
+93.8547 	EXP 	reminder: autoDraw = False
+93.8547 	EXP 	cues: image = 'stim/centre.png'
+93.8547 	EXP 	target: ori = 180.0
+93.8547 	EXP 	target: image = 'stim/neutralLeft.png'
+93.8547 	EXP 	background_4: autoDraw = True
+93.8547 	EXP 	cues: autoDraw = True
+93.8547 	EXP 	fixationshort: autoDraw = True
+93.8547 	EXP 	trial_counter: autoDraw = True
+93.8547 	EXP 	reminder_2: autoDraw = True
+93.8748 	DATA 	Keypress: left
+93.9546 	EXP 	cues: autoDraw = False
+94.0413 	DATA 	Keypress: left
+94.1748 	DATA 	Keypress: left
+94.3084 	DATA 	Keypress: left
+94.3380 	EXP 	target: autoDraw = True
+94.3545 	EXP 	fixationshort: autoDraw = False
+94.4776 	DATA 	Keypress: left
+94.4878 	EXP 	background_4: autoDraw = False
+94.4878 	EXP 	cues: autoDraw = False
+94.4878 	EXP 	target: autoDraw = False
+94.4878 	EXP 	fixationshort: autoDraw = False
+94.4878 	EXP 	trial_counter: autoDraw = False
+94.4878 	EXP 	reminder_2: autoDraw = False
+94.4878 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+94.4878 	EXP 	text: text = 'Incorrect!'
+94.4878 	EXP 	background_5: autoDraw = True
+94.4878 	EXP 	text: autoDraw = True
+94.4878 	EXP 	trial_counter_3: autoDraw = True
+94.4878 	EXP 	reminder_3: autoDraw = True
+94.6082 	DATA 	Keypress: left
+94.9420 	DATA 	Keypress: right
+95.1248 	DATA 	Keypress: right
+95.2749 	DATA 	Keypress: right
+95.4720 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'cue': 'stim/upper.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+95.4879 	EXP 	background_5: autoDraw = False
+95.4879 	EXP 	text: autoDraw = False
+95.4879 	EXP 	trial_counter_3: autoDraw = False
+95.4879 	EXP 	reminder_3: autoDraw = False
+95.4879 	EXP 	background_5: autoDraw = False
+95.4879 	EXP 	text: autoDraw = False
+95.4879 	EXP 	trial_counter_3: autoDraw = False
+95.4879 	EXP 	reminder_3: autoDraw = False
+95.4879 	EXP 	background_3: autoDraw = True
+95.4879 	EXP 	image: autoDraw = True
+95.4879 	EXP 	trial_counter_2: autoDraw = True
+95.4879 	EXP 	reminder: autoDraw = True
+95.5422 	DATA 	Keypress: right
+95.6424 	DATA 	Keypress: left
+95.7918 	DATA 	Keypress: left
+95.9587 	DATA 	Keypress: left
+95.9879 	EXP 	background_3: autoDraw = False
+95.9879 	EXP 	image: autoDraw = False
+95.9879 	EXP 	trial_counter_2: autoDraw = False
+95.9879 	EXP 	reminder: autoDraw = False
+95.9879 	EXP 	background_3: autoDraw = False
+95.9879 	EXP 	image: autoDraw = False
+95.9879 	EXP 	trial_counter_2: autoDraw = False
+95.9879 	EXP 	reminder: autoDraw = False
+95.9879 	EXP 	cues: image = 'stim/upper.png'
+95.9879 	EXP 	target: ori = 0.0
+95.9879 	EXP 	target: image = 'stim/incongLeft.png'
+95.9879 	EXP 	background_4: autoDraw = True
+95.9879 	EXP 	cues: autoDraw = True
+95.9879 	EXP 	fixationshort: autoDraw = True
+95.9879 	EXP 	trial_counter: autoDraw = True
+95.9879 	EXP 	reminder_2: autoDraw = True
+96.0878 	EXP 	cues: autoDraw = False
+96.1079 	DATA 	Keypress: left
+96.2581 	DATA 	Keypress: left
+96.4247 	DATA 	Keypress: left
+96.4713 	EXP 	target: autoDraw = True
+96.4876 	EXP 	fixationshort: autoDraw = False
+96.5794 	DATA 	Keypress: left
+96.5880 	EXP 	background_4: autoDraw = False
+96.5880 	EXP 	cues: autoDraw = False
+96.5880 	EXP 	target: autoDraw = False
+96.5880 	EXP 	fixationshort: autoDraw = False
+96.5880 	EXP 	trial_counter: autoDraw = False
+96.5880 	EXP 	reminder_2: autoDraw = False
+96.5880 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+96.5880 	EXP 	text: height = 0.04
+96.5880 	EXP 	text: height = 0.04
+96.5880 	EXP 	text: height = 0.04
+96.5880 	EXP 	text: text = 'Correct! Your RT is : 91ms'
+96.5880 	EXP 	background_5: autoDraw = True
+96.5880 	EXP 	text: autoDraw = True
+96.5880 	EXP 	trial_counter_3: autoDraw = True
+96.5880 	EXP 	reminder_3: autoDraw = True
+96.7081 	DATA 	Keypress: left
+96.8585 	DATA 	Keypress: left
+97.0919 	DATA 	Keypress: right
+97.2581 	DATA 	Keypress: right
+97.4415 	DATA 	Keypress: right
+97.5582 	DATA 	Keypress: right
+97.5720 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/congLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+97.5882 	EXP 	background_5: autoDraw = False
+97.5882 	EXP 	text: autoDraw = False
+97.5882 	EXP 	trial_counter_3: autoDraw = False
+97.5882 	EXP 	reminder_3: autoDraw = False
+97.5882 	EXP 	background_5: autoDraw = False
+97.5882 	EXP 	text: autoDraw = False
+97.5882 	EXP 	trial_counter_3: autoDraw = False
+97.5882 	EXP 	reminder_3: autoDraw = False
+97.5882 	EXP 	background_3: autoDraw = True
+97.5882 	EXP 	image: autoDraw = True
+97.5882 	EXP 	trial_counter_2: autoDraw = True
+97.5882 	EXP 	reminder: autoDraw = True
+97.7082 	DATA 	Keypress: right
+97.8584 	DATA 	Keypress: right
+97.9879 	EXP 	background_3: autoDraw = False
+97.9879 	EXP 	image: autoDraw = False
+97.9879 	EXP 	trial_counter_2: autoDraw = False
+97.9879 	EXP 	reminder: autoDraw = False
+97.9879 	EXP 	background_3: autoDraw = False
+97.9879 	EXP 	image: autoDraw = False
+97.9879 	EXP 	trial_counter_2: autoDraw = False
+97.9879 	EXP 	reminder: autoDraw = False
+97.9879 	EXP 	cues: image = 'stim/both.png'
+97.9879 	EXP 	target: ori = 180.0
+97.9879 	EXP 	target: image = 'stim/congLeft.png'
+97.9879 	EXP 	background_4: autoDraw = True
+97.9879 	EXP 	cues: autoDraw = True
+97.9879 	EXP 	fixationshort: autoDraw = True
+97.9879 	EXP 	trial_counter: autoDraw = True
+97.9879 	EXP 	reminder_2: autoDraw = True
+98.0080 	DATA 	Keypress: right
+98.0877 	EXP 	cues: autoDraw = False
+98.1747 	DATA 	Keypress: right
+98.4712 	EXP 	target: autoDraw = True
+98.4878 	EXP 	fixationshort: autoDraw = False
+98.5127 	DATA 	Keypress: right
+98.5211 	EXP 	background_4: autoDraw = False
+98.5211 	EXP 	cues: autoDraw = False
+98.5211 	EXP 	target: autoDraw = False
+98.5211 	EXP 	fixationshort: autoDraw = False
+98.5211 	EXP 	trial_counter: autoDraw = False
+98.5211 	EXP 	reminder_2: autoDraw = False
+98.5211 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+98.5211 	EXP 	text: height = 0.04
+98.5211 	EXP 	text: height = 0.04
+98.5211 	EXP 	text: height = 0.04
+98.5211 	EXP 	text: text = 'Correct! Your RT is : 29ms'
+98.5211 	EXP 	background_5: autoDraw = True
+98.5211 	EXP 	text: autoDraw = True
+98.5211 	EXP 	trial_counter_3: autoDraw = True
+98.5211 	EXP 	reminder_3: autoDraw = True
+98.6417 	DATA 	Keypress: right
+98.7913 	DATA 	Keypress: right
+98.9414 	DATA 	Keypress: right
+99.1098 	DATA 	Keypress: right
+99.2750 	DATA 	Keypress: right
+99.4249 	DATA 	Keypress: right
+99.5055 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'cue': 'stim/lower.png', 'tar': 'stim/neutralLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+99.5211 	EXP 	background_5: autoDraw = False
+99.5211 	EXP 	text: autoDraw = False
+99.5211 	EXP 	trial_counter_3: autoDraw = False
+99.5211 	EXP 	reminder_3: autoDraw = False
+99.5211 	EXP 	background_5: autoDraw = False
+99.5211 	EXP 	text: autoDraw = False
+99.5211 	EXP 	trial_counter_3: autoDraw = False
+99.5211 	EXP 	reminder_3: autoDraw = False
+99.5211 	EXP 	background_3: autoDraw = True
+99.5211 	EXP 	image: autoDraw = True
+99.5211 	EXP 	trial_counter_2: autoDraw = True
+99.5211 	EXP 	reminder: autoDraw = True
+99.5915 	DATA 	Keypress: right
+99.7579 	DATA 	Keypress: right
+99.8913 	DATA 	Keypress: left
+99.9213 	EXP 	background_3: autoDraw = False
+99.9213 	EXP 	image: autoDraw = False
+99.9213 	EXP 	trial_counter_2: autoDraw = False
+99.9213 	EXP 	reminder: autoDraw = False
+99.9213 	EXP 	background_3: autoDraw = False
+99.9213 	EXP 	image: autoDraw = False
+99.9213 	EXP 	trial_counter_2: autoDraw = False
+99.9213 	EXP 	reminder: autoDraw = False
+99.9213 	EXP 	cues: image = 'stim/lower.png'
+99.9213 	EXP 	target: ori = 180.0
+99.9213 	EXP 	target: image = 'stim/neutralLeft.png'
+99.9213 	EXP 	background_4: autoDraw = True
+99.9213 	EXP 	cues: autoDraw = True
+99.9213 	EXP 	fixationshort: autoDraw = True
+99.9213 	EXP 	trial_counter: autoDraw = True
+99.9213 	EXP 	reminder_2: autoDraw = True
+100.0211 	EXP 	cues: autoDraw = False
+100.0415 	DATA 	Keypress: left
+100.2083 	DATA 	Keypress: left
+100.3583 	DATA 	Keypress: left
+100.4045 	EXP 	target: autoDraw = True
+100.4211 	EXP 	fixationshort: autoDraw = False
+100.5289 	DATA 	Keypress: left
+100.5378 	EXP 	background_4: autoDraw = False
+100.5378 	EXP 	cues: autoDraw = False
+100.5378 	EXP 	target: autoDraw = False
+100.5378 	EXP 	fixationshort: autoDraw = False
+100.5378 	EXP 	trial_counter: autoDraw = False
+100.5378 	EXP 	reminder_2: autoDraw = False
+100.5378 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+100.5378 	EXP 	text: height = 0.04
+100.5378 	EXP 	text: height = 0.04
+100.5378 	EXP 	text: height = 0.04
+100.5378 	EXP 	text: text = 'Incorrect!'
+100.5378 	EXP 	background_5: autoDraw = True
+100.5378 	EXP 	text: autoDraw = True
+100.5378 	EXP 	trial_counter_3: autoDraw = True
+100.5378 	EXP 	reminder_3: autoDraw = True
+100.6580 	DATA 	Keypress: left
+100.8247 	DATA 	Keypress: left
+100.9752 	DATA 	Keypress: right
+101.1252 	DATA 	Keypress: right
+101.2915 	DATA 	Keypress: right
+101.4914 	DATA 	Keypress: left
+101.5221 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+101.5379 	EXP 	background_5: autoDraw = False
+101.5379 	EXP 	text: autoDraw = False
+101.5379 	EXP 	trial_counter_3: autoDraw = False
+101.5379 	EXP 	reminder_3: autoDraw = False
+101.5379 	EXP 	background_5: autoDraw = False
+101.5379 	EXP 	text: autoDraw = False
+101.5379 	EXP 	trial_counter_3: autoDraw = False
+101.5379 	EXP 	reminder_3: autoDraw = False
+101.5379 	EXP 	background_3: autoDraw = True
+101.5379 	EXP 	image: autoDraw = True
+101.5379 	EXP 	trial_counter_2: autoDraw = True
+101.5379 	EXP 	reminder: autoDraw = True
+101.6580 	DATA 	Keypress: left
+101.8417 	DATA 	Keypress: left
+101.9791 	DATA 	Keypress: left
+101.9878 	EXP 	background_3: autoDraw = False
+101.9878 	EXP 	image: autoDraw = False
+101.9878 	EXP 	trial_counter_2: autoDraw = False
+101.9878 	EXP 	reminder: autoDraw = False
+101.9878 	EXP 	background_3: autoDraw = False
+101.9878 	EXP 	image: autoDraw = False
+101.9878 	EXP 	trial_counter_2: autoDraw = False
+101.9878 	EXP 	reminder: autoDraw = False
+101.9878 	EXP 	cues: image = 'stim/both.png'
+101.9878 	EXP 	target: ori = 0.0
+101.9878 	EXP 	target: image = 'stim/neutralRight.png'
+101.9878 	EXP 	background_4: autoDraw = True
+101.9878 	EXP 	cues: autoDraw = True
+101.9878 	EXP 	fixationshort: autoDraw = True
+101.9878 	EXP 	trial_counter: autoDraw = True
+101.9878 	EXP 	reminder_2: autoDraw = True
+102.0878 	EXP 	cues: autoDraw = False
+102.1410 	DATA 	Keypress: left
+102.3089 	DATA 	Keypress: left
+102.4712 	EXP 	target: autoDraw = True
+102.4752 	DATA 	Keypress: left
+102.4878 	EXP 	fixationshort: autoDraw = False
+102.5546 	EXP 	background_4: autoDraw = False
+102.5546 	EXP 	cues: autoDraw = False
+102.5546 	EXP 	target: autoDraw = False
+102.5546 	EXP 	fixationshort: autoDraw = False
+102.5546 	EXP 	trial_counter: autoDraw = False
+102.5546 	EXP 	reminder_2: autoDraw = False
+102.5546 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+102.5546 	EXP 	text: text = 'Incorrect!'
+102.5546 	EXP 	background_5: autoDraw = True
+102.5546 	EXP 	text: autoDraw = True
+102.5546 	EXP 	trial_counter_3: autoDraw = True
+102.5546 	EXP 	reminder_3: autoDraw = True
+102.5914 	DATA 	Keypress: left
+102.7414 	DATA 	Keypress: left
+102.9079 	DATA 	Keypress: left
+103.0914 	DATA 	Keypress: left
+103.3258 	DATA 	Keypress: left
+103.5388 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/congRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+103.5544 	EXP 	background_5: autoDraw = False
+103.5544 	EXP 	text: autoDraw = False
+103.5544 	EXP 	trial_counter_3: autoDraw = False
+103.5544 	EXP 	reminder_3: autoDraw = False
+103.5544 	EXP 	background_5: autoDraw = False
+103.5544 	EXP 	text: autoDraw = False
+103.5544 	EXP 	trial_counter_3: autoDraw = False
+103.5544 	EXP 	reminder_3: autoDraw = False
+103.5544 	EXP 	background_3: autoDraw = True
+103.5544 	EXP 	image: autoDraw = True
+103.5544 	EXP 	trial_counter_2: autoDraw = True
+103.5544 	EXP 	reminder: autoDraw = True
+103.8747 	DATA 	Keypress: left
+104.0085 	DATA 	Keypress: left
+104.0544 	EXP 	background_3: autoDraw = False
+104.0544 	EXP 	image: autoDraw = False
+104.0544 	EXP 	trial_counter_2: autoDraw = False
+104.0544 	EXP 	reminder: autoDraw = False
+104.0544 	EXP 	background_3: autoDraw = False
+104.0544 	EXP 	image: autoDraw = False
+104.0544 	EXP 	trial_counter_2: autoDraw = False
+104.0544 	EXP 	reminder: autoDraw = False
+104.0544 	EXP 	cues: image = 'stim/both.png'
+104.0544 	EXP 	target: ori = 0.0
+104.0544 	EXP 	target: image = 'stim/congRight.png'
+104.0544 	EXP 	background_4: autoDraw = True
+104.0544 	EXP 	cues: autoDraw = True
+104.0544 	EXP 	fixationshort: autoDraw = True
+104.0544 	EXP 	trial_counter: autoDraw = True
+104.0544 	EXP 	reminder_2: autoDraw = True
+104.1545 	EXP 	cues: autoDraw = False
+104.1751 	DATA 	Keypress: left
+104.3247 	DATA 	Keypress: left
+104.4912 	DATA 	Keypress: left
+104.5378 	EXP 	target: autoDraw = True
+104.5545 	EXP 	fixationshort: autoDraw = False
+104.6247 	DATA 	Keypress: left
+104.6545 	EXP 	background_4: autoDraw = False
+104.6545 	EXP 	cues: autoDraw = False
+104.6545 	EXP 	target: autoDraw = False
+104.6545 	EXP 	fixationshort: autoDraw = False
+104.6545 	EXP 	trial_counter: autoDraw = False
+104.6545 	EXP 	reminder_2: autoDraw = False
+104.6545 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+104.6545 	EXP 	text: text = 'Incorrect!'
+104.6545 	EXP 	background_5: autoDraw = True
+104.6545 	EXP 	text: autoDraw = True
+104.6545 	EXP 	trial_counter_3: autoDraw = True
+104.6545 	EXP 	reminder_3: autoDraw = True
+104.7581 	DATA 	Keypress: left
+104.8744 	DATA 	Keypress: left
+105.2413 	DATA 	Keypress: left
+105.4082 	DATA 	Keypress: left
+105.5746 	DATA 	Keypress: left
+105.6385 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/incongRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+105.6545 	EXP 	background_5: autoDraw = False
+105.6545 	EXP 	text: autoDraw = False
+105.6545 	EXP 	trial_counter_3: autoDraw = False
+105.6545 	EXP 	reminder_3: autoDraw = False
+105.6545 	EXP 	background_5: autoDraw = False
+105.6545 	EXP 	text: autoDraw = False
+105.6545 	EXP 	trial_counter_3: autoDraw = False
+105.6545 	EXP 	reminder_3: autoDraw = False
+105.6545 	EXP 	background_3: autoDraw = True
+105.6545 	EXP 	image: autoDraw = True
+105.6545 	EXP 	trial_counter_2: autoDraw = True
+105.6545 	EXP 	reminder: autoDraw = True
+105.7409 	DATA 	Keypress: left
+105.9091 	DATA 	Keypress: left
+106.0913 	DATA 	Keypress: left
+106.2046 	EXP 	background_3: autoDraw = False
+106.2046 	EXP 	image: autoDraw = False
+106.2046 	EXP 	trial_counter_2: autoDraw = False
+106.2046 	EXP 	reminder: autoDraw = False
+106.2046 	EXP 	background_3: autoDraw = False
+106.2046 	EXP 	image: autoDraw = False
+106.2046 	EXP 	trial_counter_2: autoDraw = False
+106.2046 	EXP 	reminder: autoDraw = False
+106.2046 	EXP 	cues: image = 'stim/centre.png'
+106.2046 	EXP 	target: ori = 0.0
+106.2046 	EXP 	target: image = 'stim/incongRight.png'
+106.2046 	EXP 	background_4: autoDraw = True
+106.2046 	EXP 	cues: autoDraw = True
+106.2046 	EXP 	fixationshort: autoDraw = True
+106.2046 	EXP 	trial_counter: autoDraw = True
+106.2046 	EXP 	reminder_2: autoDraw = True
+106.2245 	DATA 	Keypress: left
+106.3045 	EXP 	cues: autoDraw = False
+106.3910 	DATA 	Keypress: left
+106.5745 	DATA 	Keypress: left
+106.6878 	EXP 	target: autoDraw = True
+106.7044 	EXP 	fixationshort: autoDraw = False
+106.7249 	DATA 	Keypress: left
+106.7542 	EXP 	background_4: autoDraw = False
+106.7542 	EXP 	cues: autoDraw = False
+106.7542 	EXP 	target: autoDraw = False
+106.7542 	EXP 	fixationshort: autoDraw = False
+106.7542 	EXP 	trial_counter: autoDraw = False
+106.7542 	EXP 	reminder_2: autoDraw = False
+106.7542 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+106.7542 	EXP 	text: text = 'Incorrect!'
+106.7542 	EXP 	background_5: autoDraw = True
+106.7542 	EXP 	text: autoDraw = True
+106.7542 	EXP 	trial_counter_3: autoDraw = True
+106.7542 	EXP 	reminder_3: autoDraw = True
+106.8914 	DATA 	Keypress: left
+107.0746 	DATA 	Keypress: left
+107.2579 	DATA 	Keypress: left
+107.5578 	DATA 	Keypress: right
+107.7384 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'cue': 'stim/upper.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+107.7546 	EXP 	background_5: autoDraw = False
+107.7546 	EXP 	text: autoDraw = False
+107.7546 	EXP 	trial_counter_3: autoDraw = False
+107.7546 	EXP 	reminder_3: autoDraw = False
+107.7546 	EXP 	background_5: autoDraw = False
+107.7546 	EXP 	text: autoDraw = False
+107.7546 	EXP 	trial_counter_3: autoDraw = False
+107.7546 	EXP 	reminder_3: autoDraw = False
+107.7546 	EXP 	background_3: autoDraw = True
+107.7546 	EXP 	image: autoDraw = True
+107.7546 	EXP 	trial_counter_2: autoDraw = True
+107.7546 	EXP 	reminder: autoDraw = True
+108.1080 	DATA 	Keypress: right
+108.1545 	EXP 	background_3: autoDraw = False
+108.1545 	EXP 	image: autoDraw = False
+108.1545 	EXP 	trial_counter_2: autoDraw = False
+108.1545 	EXP 	reminder: autoDraw = False
+108.1545 	EXP 	background_3: autoDraw = False
+108.1545 	EXP 	image: autoDraw = False
+108.1545 	EXP 	trial_counter_2: autoDraw = False
+108.1545 	EXP 	reminder: autoDraw = False
+108.1545 	EXP 	cues: image = 'stim/upper.png'
+108.1545 	EXP 	target: ori = 0.0
+108.1545 	EXP 	target: image = 'stim/neutralRight.png'
+108.1545 	EXP 	background_4: autoDraw = True
+108.1545 	EXP 	cues: autoDraw = True
+108.1545 	EXP 	fixationshort: autoDraw = True
+108.1545 	EXP 	trial_counter: autoDraw = True
+108.1545 	EXP 	reminder_2: autoDraw = True
+108.2410 	DATA 	Keypress: right
+108.2544 	EXP 	cues: autoDraw = False
+108.3912 	DATA 	Keypress: right
+108.5582 	DATA 	Keypress: right
+108.6376 	EXP 	target: autoDraw = True
+108.6543 	EXP 	fixationshort: autoDraw = False
+108.6756 	DATA 	Keypress: right
+108.7043 	EXP 	background_4: autoDraw = False
+108.7043 	EXP 	cues: autoDraw = False
+108.7043 	EXP 	target: autoDraw = False
+108.7043 	EXP 	fixationshort: autoDraw = False
+108.7043 	EXP 	trial_counter: autoDraw = False
+108.7043 	EXP 	reminder_2: autoDraw = False
+108.7043 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+108.7043 	EXP 	text: height = 0.04
+108.7043 	EXP 	text: height = 0.04
+108.7043 	EXP 	text: height = 0.04
+108.7043 	EXP 	text: text = 'Correct! Your RT is : 34ms'
+108.7043 	EXP 	background_5: autoDraw = True
+108.7043 	EXP 	text: autoDraw = True
+108.7043 	EXP 	trial_counter_3: autoDraw = True
+108.7043 	EXP 	reminder_3: autoDraw = True
+108.8256 	DATA 	Keypress: right
+108.9744 	DATA 	Keypress: right
+109.2248 	DATA 	Keypress: right
+109.4079 	DATA 	Keypress: right
+109.5924 	DATA 	Keypress: right
+109.6882 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/congRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+109.7043 	EXP 	background_5: autoDraw = False
+109.7043 	EXP 	text: autoDraw = False
+109.7043 	EXP 	trial_counter_3: autoDraw = False
+109.7043 	EXP 	reminder_3: autoDraw = False
+109.7043 	EXP 	background_5: autoDraw = False
+109.7043 	EXP 	text: autoDraw = False
+109.7043 	EXP 	trial_counter_3: autoDraw = False
+109.7043 	EXP 	reminder_3: autoDraw = False
+109.7043 	EXP 	background_3: autoDraw = True
+109.7043 	EXP 	image: autoDraw = True
+109.7043 	EXP 	trial_counter_2: autoDraw = True
+109.7043 	EXP 	reminder: autoDraw = True
+109.7744 	DATA 	Keypress: right
+109.9412 	DATA 	Keypress: right
+110.1044 	EXP 	background_3: autoDraw = False
+110.1044 	EXP 	image: autoDraw = False
+110.1044 	EXP 	trial_counter_2: autoDraw = False
+110.1044 	EXP 	reminder: autoDraw = False
+110.1044 	EXP 	background_3: autoDraw = False
+110.1044 	EXP 	image: autoDraw = False
+110.1044 	EXP 	trial_counter_2: autoDraw = False
+110.1044 	EXP 	reminder: autoDraw = False
+110.1044 	EXP 	cues: image = 'stim/both.png'
+110.1044 	EXP 	target: ori = 180.0
+110.1044 	EXP 	target: image = 'stim/congRight.png'
+110.1044 	EXP 	background_4: autoDraw = True
+110.1044 	EXP 	cues: autoDraw = True
+110.1044 	EXP 	fixationshort: autoDraw = True
+110.1044 	EXP 	trial_counter: autoDraw = True
+110.1044 	EXP 	reminder_2: autoDraw = True
+110.1084 	DATA 	Keypress: right
+110.2042 	EXP 	cues: autoDraw = False
+110.4753 	DATA 	Keypress: right
+110.5876 	EXP 	target: autoDraw = True
+110.6044 	EXP 	fixationshort: autoDraw = False
+110.6585 	DATA 	Keypress: right
+110.6876 	EXP 	background_4: autoDraw = False
+110.6876 	EXP 	cues: autoDraw = False
+110.6876 	EXP 	target: autoDraw = False
+110.6876 	EXP 	fixationshort: autoDraw = False
+110.6876 	EXP 	trial_counter: autoDraw = False
+110.6876 	EXP 	reminder_2: autoDraw = False
+110.6876 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+110.6876 	EXP 	text: height = 0.04
+110.6876 	EXP 	text: height = 0.04
+110.6876 	EXP 	text: height = 0.04
+110.6876 	EXP 	text: text = 'Incorrect!'
+110.6876 	EXP 	background_5: autoDraw = True
+110.6876 	EXP 	text: autoDraw = True
+110.6876 	EXP 	trial_counter_3: autoDraw = True
+110.6876 	EXP 	reminder_3: autoDraw = True
+110.8413 	DATA 	Keypress: right
+111.1743 	DATA 	Keypress: left
+111.3745 	DATA 	Keypress: left
+111.5411 	DATA 	Keypress: left
+111.6717 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/incongLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+111.6876 	EXP 	background_5: autoDraw = False
+111.6876 	EXP 	text: autoDraw = False
+111.6876 	EXP 	trial_counter_3: autoDraw = False
+111.6876 	EXP 	reminder_3: autoDraw = False
+111.6876 	EXP 	background_5: autoDraw = False
+111.6876 	EXP 	text: autoDraw = False
+111.6876 	EXP 	trial_counter_3: autoDraw = False
+111.6876 	EXP 	reminder_3: autoDraw = False
+111.6876 	EXP 	background_3: autoDraw = True
+111.6876 	EXP 	image: autoDraw = True
+111.6876 	EXP 	trial_counter_2: autoDraw = True
+111.6876 	EXP 	reminder: autoDraw = True
+111.7085 	DATA 	Keypress: left
+111.9076 	DATA 	Keypress: left
+112.0586 	DATA 	Keypress: left
+112.0875 	EXP 	background_3: autoDraw = False
+112.0875 	EXP 	image: autoDraw = False
+112.0875 	EXP 	trial_counter_2: autoDraw = False
+112.0875 	EXP 	reminder: autoDraw = False
+112.0875 	EXP 	background_3: autoDraw = False
+112.0875 	EXP 	image: autoDraw = False
+112.0875 	EXP 	trial_counter_2: autoDraw = False
+112.0875 	EXP 	reminder: autoDraw = False
+112.0875 	EXP 	cues: image = 'stim/blank.png'
+112.0875 	EXP 	target: ori = 0.0
+112.0875 	EXP 	target: image = 'stim/incongLeft.png'
+112.0875 	EXP 	background_4: autoDraw = True
+112.0875 	EXP 	cues: autoDraw = True
+112.0875 	EXP 	fixationshort: autoDraw = True
+112.0875 	EXP 	trial_counter: autoDraw = True
+112.0875 	EXP 	reminder_2: autoDraw = True
+112.1877 	EXP 	cues: autoDraw = False
+112.2083 	DATA 	Keypress: left
+112.5415 	DATA 	Keypress: left
+112.5711 	EXP 	target: autoDraw = True
+112.5875 	EXP 	fixationshort: autoDraw = False
+112.7127 	DATA 	Keypress: left
+112.7210 	EXP 	background_4: autoDraw = False
+112.7210 	EXP 	cues: autoDraw = False
+112.7210 	EXP 	target: autoDraw = False
+112.7210 	EXP 	fixationshort: autoDraw = False
+112.7210 	EXP 	trial_counter: autoDraw = False
+112.7210 	EXP 	reminder_2: autoDraw = False
+112.7210 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+112.7210 	EXP 	text: height = 0.04
+112.7210 	EXP 	text: height = 0.04
+112.7210 	EXP 	text: height = 0.04
+112.7210 	EXP 	text: text = 'Correct! Your RT is : 123ms'
+112.7210 	EXP 	background_5: autoDraw = True
+112.7210 	EXP 	text: autoDraw = True
+112.7210 	EXP 	trial_counter_3: autoDraw = True
+112.7210 	EXP 	reminder_3: autoDraw = True
+112.8579 	DATA 	Keypress: left
+113.6579 	DATA 	Keypress: right
+113.7049 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+113.7209 	EXP 	background_5: autoDraw = False
+113.7209 	EXP 	text: autoDraw = False
+113.7209 	EXP 	trial_counter_3: autoDraw = False
+113.7209 	EXP 	reminder_3: autoDraw = False
+113.7209 	EXP 	background_5: autoDraw = False
+113.7209 	EXP 	text: autoDraw = False
+113.7209 	EXP 	trial_counter_3: autoDraw = False
+113.7209 	EXP 	reminder_3: autoDraw = False
+113.7209 	EXP 	background_3: autoDraw = True
+113.7209 	EXP 	image: autoDraw = True
+113.7209 	EXP 	trial_counter_2: autoDraw = True
+113.7209 	EXP 	reminder: autoDraw = True
+113.8247 	DATA 	Keypress: right
+113.9911 	DATA 	Keypress: right
+114.1620 	DATA 	Keypress: right
+114.1710 	EXP 	background_3: autoDraw = False
+114.1710 	EXP 	image: autoDraw = False
+114.1710 	EXP 	trial_counter_2: autoDraw = False
+114.1710 	EXP 	reminder: autoDraw = False
+114.1710 	EXP 	background_3: autoDraw = False
+114.1710 	EXP 	image: autoDraw = False
+114.1710 	EXP 	trial_counter_2: autoDraw = False
+114.1710 	EXP 	reminder: autoDraw = False
+114.1710 	EXP 	cues: image = 'stim/centre.png'
+114.1710 	EXP 	target: ori = 0.0
+114.1710 	EXP 	target: image = 'stim/congLeft.png'
+114.1710 	EXP 	background_4: autoDraw = True
+114.1710 	EXP 	cues: autoDraw = True
+114.1710 	EXP 	fixationshort: autoDraw = True
+114.1710 	EXP 	trial_counter: autoDraw = True
+114.1710 	EXP 	reminder_2: autoDraw = True
+114.2709 	EXP 	cues: autoDraw = False
+114.3244 	DATA 	Keypress: right
+114.4912 	DATA 	Keypress: right
+114.6543 	EXP 	target: autoDraw = True
+114.6585 	DATA 	Keypress: right
+114.6709 	EXP 	fixationshort: autoDraw = False
+114.7376 	EXP 	background_4: autoDraw = False
+114.7376 	EXP 	cues: autoDraw = False
+114.7376 	EXP 	target: autoDraw = False
+114.7376 	EXP 	fixationshort: autoDraw = False
+114.7376 	EXP 	trial_counter: autoDraw = False
+114.7376 	EXP 	reminder_2: autoDraw = False
+114.7376 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+114.7376 	EXP 	text: height = 0.04
+114.7376 	EXP 	text: height = 0.04
+114.7376 	EXP 	text: height = 0.04
+114.7376 	EXP 	text: text = 'Incorrect!'
+114.7376 	EXP 	background_5: autoDraw = True
+114.7376 	EXP 	text: autoDraw = True
+114.7376 	EXP 	trial_counter_3: autoDraw = True
+114.7376 	EXP 	reminder_3: autoDraw = True
+114.8079 	DATA 	Keypress: right
+114.9580 	DATA 	Keypress: right
+115.2078 	DATA 	Keypress: left
+115.3745 	DATA 	Keypress: left
+115.5578 	DATA 	Keypress: left
+115.7081 	DATA 	Keypress: left
+115.7216 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/incongRight.png', 'corrAns': 'right', 'targOrientation': 0, 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+115.7376 	EXP 	background_5: autoDraw = False
+115.7376 	EXP 	text: autoDraw = False
+115.7376 	EXP 	trial_counter_3: autoDraw = False
+115.7376 	EXP 	reminder_3: autoDraw = False
+115.7376 	EXP 	background_5: autoDraw = False
+115.7376 	EXP 	text: autoDraw = False
+115.7376 	EXP 	trial_counter_3: autoDraw = False
+115.7376 	EXP 	reminder_3: autoDraw = False
+115.7376 	EXP 	background_3: autoDraw = True
+115.7376 	EXP 	image: autoDraw = True
+115.7376 	EXP 	trial_counter_2: autoDraw = True
+115.7376 	EXP 	reminder: autoDraw = True
+116.1243 	DATA 	Keypress: left
+116.2375 	EXP 	background_3: autoDraw = False
+116.2375 	EXP 	image: autoDraw = False
+116.2375 	EXP 	trial_counter_2: autoDraw = False
+116.2375 	EXP 	reminder: autoDraw = False
+116.2375 	EXP 	background_3: autoDraw = False
+116.2375 	EXP 	image: autoDraw = False
+116.2375 	EXP 	trial_counter_2: autoDraw = False
+116.2375 	EXP 	reminder: autoDraw = False
+116.2375 	EXP 	cues: image = 'stim/both.png'
+116.2375 	EXP 	target: ori = 0.0
+116.2375 	EXP 	target: image = 'stim/incongRight.png'
+116.2375 	EXP 	background_4: autoDraw = True
+116.2375 	EXP 	cues: autoDraw = True
+116.2375 	EXP 	fixationshort: autoDraw = True
+116.2375 	EXP 	trial_counter: autoDraw = True
+116.2375 	EXP 	reminder_2: autoDraw = True
+116.2746 	DATA 	Keypress: left
+116.3377 	EXP 	cues: autoDraw = False
+116.4412 	DATA 	Keypress: left
+116.6075 	DATA 	Keypress: left
+116.7209 	EXP 	target: autoDraw = True
+116.7375 	EXP 	fixationshort: autoDraw = False
+116.7943 	DATA 	Keypress: left
+116.8044 	EXP 	background_4: autoDraw = False
+116.8044 	EXP 	cues: autoDraw = False
+116.8044 	EXP 	target: autoDraw = False
+116.8044 	EXP 	fixationshort: autoDraw = False
+116.8044 	EXP 	trial_counter: autoDraw = False
+116.8044 	EXP 	reminder_2: autoDraw = False
+116.8044 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+116.8044 	EXP 	text: text = 'Incorrect!'
+116.8044 	EXP 	background_5: autoDraw = True
+116.8044 	EXP 	text: autoDraw = True
+116.8044 	EXP 	trial_counter_3: autoDraw = True
+116.8044 	EXP 	reminder_3: autoDraw = True
+116.9743 	DATA 	Keypress: left
+117.1580 	DATA 	Keypress: left
+117.3579 	DATA 	Keypress: right
+117.5409 	DATA 	Keypress: right
+117.6911 	DATA 	Keypress: right
+117.7882 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'cue': 'stim/lower.png', 'tar': 'stim/neutralRight.png', 'corrAns': 'left', 'targOrientation': 180, 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+117.8043 	EXP 	background_5: autoDraw = False
+117.8043 	EXP 	text: autoDraw = False
+117.8043 	EXP 	trial_counter_3: autoDraw = False
+117.8043 	EXP 	reminder_3: autoDraw = False
+117.8043 	EXP 	background_5: autoDraw = False
+117.8043 	EXP 	text: autoDraw = False
+117.8043 	EXP 	trial_counter_3: autoDraw = False
+117.8043 	EXP 	reminder_3: autoDraw = False
+117.8043 	EXP 	background_3: autoDraw = True
+117.8043 	EXP 	image: autoDraw = True
+117.8043 	EXP 	trial_counter_2: autoDraw = True
+117.8043 	EXP 	reminder: autoDraw = True
+117.9078 	DATA 	Keypress: right
+118.1587 	DATA 	Keypress: left
+118.3090 	DATA 	Keypress: left
+118.3542 	EXP 	background_3: autoDraw = False
+118.3542 	EXP 	image: autoDraw = False
+118.3542 	EXP 	trial_counter_2: autoDraw = False
+118.3542 	EXP 	reminder: autoDraw = False
+118.3542 	EXP 	background_3: autoDraw = False
+118.3542 	EXP 	image: autoDraw = False
+118.3542 	EXP 	trial_counter_2: autoDraw = False
+118.3542 	EXP 	reminder: autoDraw = False
+118.3542 	EXP 	cues: image = 'stim/lower.png'
+118.3542 	EXP 	target: ori = 180.0
+118.3542 	EXP 	target: image = 'stim/neutralRight.png'
+118.3542 	EXP 	background_4: autoDraw = True
+118.3542 	EXP 	cues: autoDraw = True
+118.3542 	EXP 	fixationshort: autoDraw = True
+118.3542 	EXP 	trial_counter: autoDraw = True
+118.3542 	EXP 	reminder_2: autoDraw = True
+118.4541 	EXP 	cues: autoDraw = False
+118.4744 	DATA 	Keypress: left
+118.6243 	DATA 	Keypress: left
+118.7743 	DATA 	Keypress: left
+118.8375 	EXP 	target: autoDraw = True
+118.8543 	EXP 	fixationshort: autoDraw = False
+118.9292 	DATA 	Keypress: left
+118.9375 	EXP 	background_4: autoDraw = False
+118.9375 	EXP 	cues: autoDraw = False
+118.9375 	EXP 	target: autoDraw = False
+118.9375 	EXP 	fixationshort: autoDraw = False
+118.9375 	EXP 	trial_counter: autoDraw = False
+118.9375 	EXP 	reminder_2: autoDraw = False
+118.9375 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+118.9375 	EXP 	text: height = 0.04
+118.9375 	EXP 	text: height = 0.04
+118.9375 	EXP 	text: height = 0.04
+118.9375 	EXP 	text: text = 'Correct! Your RT is : 82ms'
+118.9375 	EXP 	background_5: autoDraw = True
+118.9375 	EXP 	text: autoDraw = True
+118.9375 	EXP 	trial_counter_3: autoDraw = True
+118.9375 	EXP 	reminder_3: autoDraw = True
+119.1246 	DATA 	Keypress: left
+120.0539 	EXP 	background_5: autoDraw = False
+120.0539 	EXP 	text: autoDraw = False
+120.0539 	EXP 	trial_counter_3: autoDraw = False
+120.0539 	EXP 	reminder_3: autoDraw = False
+120.0539 	EXP 	background_5: autoDraw = False
+120.0539 	EXP 	text: autoDraw = False
+120.0539 	EXP 	trial_counter_3: autoDraw = False
+120.0539 	EXP 	reminder_3: autoDraw = False
+120.0539 	EXP 	background_6: autoDraw = True
+120.0539 	EXP 	inst1textbox_3: autoDraw = True
+130.1575 	DATA 	Mouse: Left button down, pos=(1579,590)
+130.3742 	DATA 	Mouse:  Left button up, pos=(1579,590)
+130.9241 	DATA 	Keypress: space
+131.3072 	DATA 	Keypress: return
+131.5402 	DATA 	Keypress: return
+132.7073 	DATA 	Keypress: escape
+132.8056 	EXP 	attention_network_task: status = STOPPED
+132.8197 	EXP 	background_6: autoDraw = False
+132.8197 	EXP 	inst1textbox_3: autoDraw = False
+132.8198 	EXP 	attention_network_task: status = STOPPED
