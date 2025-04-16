@@ -11,7 +11,7 @@ tasks = [
     "Structure Learning/Str Lrn V2.py",
     "TMT/trail-making_lastrun.py",
     "WCST/Wisconsin Card Sorting Task_lastrun.py"
-    "tss.py"
+    "tss_instr.py"
 ]
 
 progress_file = "progress.json"
